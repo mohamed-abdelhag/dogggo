@@ -1,0 +1,348 @@
+# 2023-09-23T19:05:50.009Z:
+test_suite_meta_data {
+  scheduled_test_case_count: 6
+}
+test_status: FAILED
+test_result {
+  test_case {
+    test_class: "ButtonTests"
+    test_package: "com.example.dogglers"
+    test_method: "grid_list_button_is_displayed"
+    start_time {
+      seconds: 1695495782
+      nanos: 19000000
+    }
+    end_time {
+      seconds: 1695495815
+      nanos: 514000000
+    }
+  }
+  test_status: FAILED
+  error {
+    error_message: "androidx.test.espresso.NoActivityResumedException: No activities in stage RESUMED. Did you forget to launch the activity. (test.getActivity() or similar)?\nat dalvik.system.VMStack.getThreadStackTrace(Native Method)\nat java.lang.Thread.getStackTrace(Thread.java:1841)\nat androidx.test.espresso.base.DefaultFailureHandler.getUserFriendlyError(DefaultFailureHandler.java:12)\nat androidx.test.espresso.base.DefaultFailureHandler.handle(DefaultFailureHandler.java:7)\nat androidx.test.espresso.ViewInteraction.waitForAndHandleInteractionResults(ViewInteraction.java:8)\nat androidx.test.espresso.ViewInteraction.check(ViewInteraction.java:12)\nat com.example.dogglers.ButtonTests.grid_list_button_is_displayed(ButtonTests.kt:49)"
+    error_type: "androidx.test.espresso.NoActivityResumedException"
+    stack_trace: "androidx.test.espresso.NoActivityResumedException: No activities in stage RESUMED. Did you forget to launch the activity. (test.getActivity() or similar)?\nat dalvik.system.VMStack.getThreadStackTrace(Native Method)\nat java.lang.Thread.getStackTrace(Thread.java:1841)\nat androidx.test.espresso.base.DefaultFailureHandler.getUserFriendlyError(DefaultFailureHandler.java:12)\nat androidx.test.espresso.base.DefaultFailureHandler.handle(DefaultFailureHandler.java:7)\nat androidx.test.espresso.ViewInteraction.waitForAndHandleInteractionResults(ViewInteraction.java:8)\nat androidx.test.espresso.ViewInteraction.check(ViewInteraction.java:12)\nat com.example.dogglers.ButtonTests.grid_list_button_is_displayed(ButtonTests.kt:49)"
+  }
+  output_artifact {
+    label {
+      label: "logcat"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\jpdex\\AndroidStudioProjects\\android-basics-kotlin-dogglers-app-main\\app\\build\\outputs\\androidTest-results\\connected\\SM-A336E - 13\\logcat-com.example.dogglers.ButtonTests-grid_list_button_is_displayed.txt"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\jpdex\\AndroidStudioProjects\\android-basics-kotlin-dogglers-app-main\\app\\build\\outputs\\androidTest-results\\connected\\SM-A336E - 13\\device-info.pb"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.meminfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\jpdex\\AndroidStudioProjects\\android-basics-kotlin-dogglers-app-main\\app\\build\\outputs\\androidTest-results\\connected\\SM-A336E - 13\\meminfo"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.cpuinfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\jpdex\\AndroidStudioProjects\\android-basics-kotlin-dogglers-app-main\\app\\build\\outputs\\androidTest-results\\connected\\SM-A336E - 13\\cpuinfo"
+    }
+  }
+}
+test_result {
+  test_case {
+    test_class: "ButtonTests"
+    test_package: "com.example.dogglers"
+    test_method: "clicking_horizontal_list_button_displays_horizontal_list"
+    start_time {
+      seconds: 1695495815
+      nanos: 526000000
+    }
+    end_time {
+      seconds: 1695495848
+      nanos: 790000000
+    }
+  }
+  test_status: FAILED
+  error {
+    error_message: "androidx.test.espresso.NoActivityResumedException: No activities in stage RESUMED. Did you forget to launch the activity. (test.getActivity() or similar)?\nat dalvik.system.VMStack.getThreadStackTrace(Native Method)\nat java.lang.Thread.getStackTrace(Thread.java:1841)\nat androidx.test.espresso.base.DefaultFailureHandler.getUserFriendlyError(DefaultFailureHandler.java:12)\nat androidx.test.espresso.base.DefaultFailureHandler.handle(DefaultFailureHandler.java:7)\nat androidx.test.espresso.ViewInteraction.waitForAndHandleInteractionResults(ViewInteraction.java:8)\nat androidx.test.espresso.ViewInteraction.desugaredPerform(ViewInteraction.java:11)\nat androidx.test.espresso.ViewInteraction.perform(ViewInteraction.java:4)\nat com.example.dogglers.ButtonTests.clicking_horizontal_list_button_displays_horizontal_list(ButtonTests.kt:60)"
+    error_type: "androidx.test.espresso.NoActivityResumedException"
+    stack_trace: "androidx.test.espresso.NoActivityResumedException: No activities in stage RESUMED. Did you forget to launch the activity. (test.getActivity() or similar)?\nat dalvik.system.VMStack.getThreadStackTrace(Native Method)\nat java.lang.Thread.getStackTrace(Thread.java:1841)\nat androidx.test.espresso.base.DefaultFailureHandler.getUserFriendlyError(DefaultFailureHandler.java:12)\nat androidx.test.espresso.base.DefaultFailureHandler.handle(DefaultFailureHandler.java:7)\nat androidx.test.espresso.ViewInteraction.waitForAndHandleInteractionResults(ViewInteraction.java:8)\nat androidx.test.espresso.ViewInteraction.desugaredPerform(ViewInteraction.java:11)\nat androidx.test.espresso.ViewInteraction.perform(ViewInteraction.java:4)\nat com.example.dogglers.ButtonTests.clicking_horizontal_list_button_displays_horizontal_list(ButtonTests.kt:60)"
+  }
+  output_artifact {
+    label {
+      label: "logcat"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\jpdex\\AndroidStudioProjects\\android-basics-kotlin-dogglers-app-main\\app\\build\\outputs\\androidTest-results\\connected\\SM-A336E - 13\\logcat-com.example.dogglers.ButtonTests-clicking_horizontal_list_button_displays_horizontal_list.txt"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\jpdex\\AndroidStudioProjects\\android-basics-kotlin-dogglers-app-main\\app\\build\\outputs\\androidTest-results\\connected\\SM-A336E - 13\\device-info.pb"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.meminfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\jpdex\\AndroidStudioProjects\\android-basics-kotlin-dogglers-app-main\\app\\build\\outputs\\androidTest-results\\connected\\SM-A336E - 13\\meminfo"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.cpuinfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\jpdex\\AndroidStudioProjects\\android-basics-kotlin-dogglers-app-main\\app\\build\\outputs\\androidTest-results\\connected\\SM-A336E - 13\\cpuinfo"
+    }
+  }
+}
+test_result {
+  test_case {
+    test_class: "ButtonTests"
+    test_package: "com.example.dogglers"
+    test_method: "clicking_grid_list_button_displays_grid_list"
+    start_time {
+      seconds: 1695495848
+      nanos: 791000000
+    }
+    end_time {
+      seconds: 1695495882
+      nanos: 80000000
+    }
+  }
+  test_status: FAILED
+  error {
+    error_message: "androidx.test.espresso.NoActivityResumedException: No activities in stage RESUMED. Did you forget to launch the activity. (test.getActivity() or similar)?\nat dalvik.system.VMStack.getThreadStackTrace(Native Method)\nat java.lang.Thread.getStackTrace(Thread.java:1841)\nat androidx.test.espresso.base.DefaultFailureHandler.getUserFriendlyError(DefaultFailureHandler.java:12)\nat androidx.test.espresso.base.DefaultFailureHandler.handle(DefaultFailureHandler.java:7)\nat androidx.test.espresso.ViewInteraction.waitForAndHandleInteractionResults(ViewInteraction.java:8)\nat androidx.test.espresso.ViewInteraction.desugaredPerform(ViewInteraction.java:11)\nat androidx.test.espresso.ViewInteraction.perform(ViewInteraction.java:4)\nat com.example.dogglers.ButtonTests.clicking_grid_list_button_displays_grid_list(ButtonTests.kt:66)"
+    error_type: "androidx.test.espresso.NoActivityResumedException"
+    stack_trace: "androidx.test.espresso.NoActivityResumedException: No activities in stage RESUMED. Did you forget to launch the activity. (test.getActivity() or similar)?\nat dalvik.system.VMStack.getThreadStackTrace(Native Method)\nat java.lang.Thread.getStackTrace(Thread.java:1841)\nat androidx.test.espresso.base.DefaultFailureHandler.getUserFriendlyError(DefaultFailureHandler.java:12)\nat androidx.test.espresso.base.DefaultFailureHandler.handle(DefaultFailureHandler.java:7)\nat androidx.test.espresso.ViewInteraction.waitForAndHandleInteractionResults(ViewInteraction.java:8)\nat androidx.test.espresso.ViewInteraction.desugaredPerform(ViewInteraction.java:11)\nat androidx.test.espresso.ViewInteraction.perform(ViewInteraction.java:4)\nat com.example.dogglers.ButtonTests.clicking_grid_list_button_displays_grid_list(ButtonTests.kt:66)"
+  }
+  output_artifact {
+    label {
+      label: "logcat"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\jpdex\\AndroidStudioProjects\\android-basics-kotlin-dogglers-app-main\\app\\build\\outputs\\androidTest-results\\connected\\SM-A336E - 13\\logcat-com.example.dogglers.ButtonTests-clicking_grid_list_button_displays_grid_list.txt"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\jpdex\\AndroidStudioProjects\\android-basics-kotlin-dogglers-app-main\\app\\build\\outputs\\androidTest-results\\connected\\SM-A336E - 13\\device-info.pb"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.meminfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\jpdex\\AndroidStudioProjects\\android-basics-kotlin-dogglers-app-main\\app\\build\\outputs\\androidTest-results\\connected\\SM-A336E - 13\\meminfo"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.cpuinfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\jpdex\\AndroidStudioProjects\\android-basics-kotlin-dogglers-app-main\\app\\build\\outputs\\androidTest-results\\connected\\SM-A336E - 13\\cpuinfo"
+    }
+  }
+}
+test_result {
+  test_case {
+    test_class: "ButtonTests"
+    test_package: "com.example.dogglers"
+    test_method: "clicking_vertical_list_button_displays_vertical_list"
+    start_time {
+      seconds: 1695495882
+      nanos: 81000000
+    }
+    end_time {
+      seconds: 1695495915
+      nanos: 372000000
+    }
+  }
+  test_status: FAILED
+  error {
+    error_message: "androidx.test.espresso.NoActivityResumedException: No activities in stage RESUMED. Did you forget to launch the activity. (test.getActivity() or similar)?\nat dalvik.system.VMStack.getThreadStackTrace(Native Method)\nat java.lang.Thread.getStackTrace(Thread.java:1841)\nat androidx.test.espresso.base.DefaultFailureHandler.getUserFriendlyError(DefaultFailureHandler.java:12)\nat androidx.test.espresso.base.DefaultFailureHandler.handle(DefaultFailureHandler.java:7)\nat androidx.test.espresso.ViewInteraction.waitForAndHandleInteractionResults(ViewInteraction.java:8)\nat androidx.test.espresso.ViewInteraction.desugaredPerform(ViewInteraction.java:11)\nat androidx.test.espresso.ViewInteraction.perform(ViewInteraction.java:4)\nat com.example.dogglers.ButtonTests.clicking_vertical_list_button_displays_vertical_list(ButtonTests.kt:54)"
+    error_type: "androidx.test.espresso.NoActivityResumedException"
+    stack_trace: "androidx.test.espresso.NoActivityResumedException: No activities in stage RESUMED. Did you forget to launch the activity. (test.getActivity() or similar)?\nat dalvik.system.VMStack.getThreadStackTrace(Native Method)\nat java.lang.Thread.getStackTrace(Thread.java:1841)\nat androidx.test.espresso.base.DefaultFailureHandler.getUserFriendlyError(DefaultFailureHandler.java:12)\nat androidx.test.espresso.base.DefaultFailureHandler.handle(DefaultFailureHandler.java:7)\nat androidx.test.espresso.ViewInteraction.waitForAndHandleInteractionResults(ViewInteraction.java:8)\nat androidx.test.espresso.ViewInteraction.desugaredPerform(ViewInteraction.java:11)\nat androidx.test.espresso.ViewInteraction.perform(ViewInteraction.java:4)\nat com.example.dogglers.ButtonTests.clicking_vertical_list_button_displays_vertical_list(ButtonTests.kt:54)"
+  }
+  output_artifact {
+    label {
+      label: "logcat"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\jpdex\\AndroidStudioProjects\\android-basics-kotlin-dogglers-app-main\\app\\build\\outputs\\androidTest-results\\connected\\SM-A336E - 13\\logcat-com.example.dogglers.ButtonTests-clicking_vertical_list_button_displays_vertical_list.txt"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\jpdex\\AndroidStudioProjects\\android-basics-kotlin-dogglers-app-main\\app\\build\\outputs\\androidTest-results\\connected\\SM-A336E - 13\\device-info.pb"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.meminfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\jpdex\\AndroidStudioProjects\\android-basics-kotlin-dogglers-app-main\\app\\build\\outputs\\androidTest-results\\connected\\SM-A336E - 13\\meminfo"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.cpuinfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\jpdex\\AndroidStudioProjects\\android-basics-kotlin-dogglers-app-main\\app\\build\\outputs\\androidTest-results\\connected\\SM-A336E - 13\\cpuinfo"
+    }
+  }
+}
+test_result {
+  test_case {
+    test_class: "ButtonTests"
+    test_package: "com.example.dogglers"
+    test_method: "horizontal_list_button_is_displayed"
+    start_time {
+      seconds: 1695495915
+      nanos: 373000000
+    }
+    end_time {
+      seconds: 1695495948
+      nanos: 543000000
+    }
+  }
+  test_status: PASSED
+  output_artifact {
+    label {
+      label: "logcat"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\jpdex\\AndroidStudioProjects\\android-basics-kotlin-dogglers-app-main\\app\\build\\outputs\\androidTest-results\\connected\\SM-A336E - 13\\logcat-com.example.dogglers.ButtonTests-horizontal_list_button_is_displayed.txt"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\jpdex\\AndroidStudioProjects\\android-basics-kotlin-dogglers-app-main\\app\\build\\outputs\\androidTest-results\\connected\\SM-A336E - 13\\device-info.pb"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.meminfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\jpdex\\AndroidStudioProjects\\android-basics-kotlin-dogglers-app-main\\app\\build\\outputs\\androidTest-results\\connected\\SM-A336E - 13\\meminfo"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.cpuinfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\jpdex\\AndroidStudioProjects\\android-basics-kotlin-dogglers-app-main\\app\\build\\outputs\\androidTest-results\\connected\\SM-A336E - 13\\cpuinfo"
+    }
+  }
+}
+test_result {
+  test_case {
+    test_class: "ButtonTests"
+    test_package: "com.example.dogglers"
+    test_method: "vertical_list_button_is_displayed"
+    start_time {
+      seconds: 1695495948
+      nanos: 854000000
+    }
+    end_time {
+      seconds: 1695495949
+      nanos: 524000000
+    }
+  }
+  test_status: PASSED
+  output_artifact {
+    label {
+      label: "logcat"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\jpdex\\AndroidStudioProjects\\android-basics-kotlin-dogglers-app-main\\app\\build\\outputs\\androidTest-results\\connected\\SM-A336E - 13\\logcat-com.example.dogglers.ButtonTests-vertical_list_button_is_displayed.txt"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\jpdex\\AndroidStudioProjects\\android-basics-kotlin-dogglers-app-main\\app\\build\\outputs\\androidTest-results\\connected\\SM-A336E - 13\\device-info.pb"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.meminfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\jpdex\\AndroidStudioProjects\\android-basics-kotlin-dogglers-app-main\\app\\build\\outputs\\androidTest-results\\connected\\SM-A336E - 13\\meminfo"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.cpuinfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\jpdex\\AndroidStudioProjects\\android-basics-kotlin-dogglers-app-main\\app\\build\\outputs\\androidTest-results\\connected\\SM-A336E - 13\\cpuinfo"
+    }
+  }
+}
+output_artifact {
+  label {
+    label: "test-results.log"
+    namespace: "com.google.testing.platform.runtime.android.driver.AndroidInstrumentationDriver"
+  }
+  source_path {
+    path: "C:\\Users\\jpdex\\AndroidStudioProjects\\android-basics-kotlin-dogglers-app-main\\app\\build\\outputs\\androidTest-results\\connected\\SM-A336E - 13\\testlog\\test-results.log"
+  }
+  type: TEST_DATA
+  mime_type: "text/plain"
+}

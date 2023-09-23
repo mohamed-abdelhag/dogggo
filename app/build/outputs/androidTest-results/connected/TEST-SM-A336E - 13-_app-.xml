@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<testsuite name="com.example.dogglers.ButtonTests" tests="6" failures="4" errors="0" skipped="0" time="167.921" timestamp="2023-09-23T19:05:49" hostname="localhost">
+  <properties>
+    <property name="device" value="SM-A336E - 13" />
+    <property name="flavor" value="" />
+    <property name="project" value=":app" />
+  </properties>
+  <testcase name="grid_list_button_is_displayed" classname="com.example.dogglers.ButtonTests" time="33.473">
+    <failure>androidx.test.espresso.NoActivityResumedException: No activities in stage RESUMED. Did you forget to launch the activity. (test.getActivity() or similar)?
+at dalvik.system.VMStack.getThreadStackTrace(Native Method)
+at java.lang.Thread.getStackTrace(Thread.java:1841)
+at androidx.test.espresso.base.DefaultFailureHandler.getUserFriendlyError(DefaultFailureHandler.java:12)
+at androidx.test.espresso.base.DefaultFailureHandler.handle(DefaultFailureHandler.java:7)
+at androidx.test.espresso.ViewInteraction.waitForAndHandleInteractionResults(ViewInteraction.java:8)
+at androidx.test.espresso.ViewInteraction.check(ViewInteraction.java:12)
+at com.example.dogglers.ButtonTests.grid_list_button_is_displayed(ButtonTests.kt:49)</failure>
+  </testcase>
+  <testcase name="clicking_horizontal_list_button_displays_horizontal_list" classname="com.example.dogglers.ButtonTests" time="33.262">
+    <failure>androidx.test.espresso.NoActivityResumedException: No activities in stage RESUMED. Did you forget to launch the activity. (test.getActivity() or similar)?
+at dalvik.system.VMStack.getThreadStackTrace(Native Method)
+at java.lang.Thread.getStackTrace(Thread.java:1841)
+at androidx.test.espresso.base.DefaultFailureHandler.getUserFriendlyError(DefaultFailureHandler.java:12)
+at androidx.test.espresso.base.DefaultFailureHandler.handle(DefaultFailureHandler.java:7)
+at androidx.test.espresso.ViewInteraction.waitForAndHandleInteractionResults(ViewInteraction.java:8)
+at androidx.test.espresso.ViewInteraction.desugaredPerform(ViewInteraction.java:11)
+at androidx.test.espresso.ViewInteraction.perform(ViewInteraction.java:4)
+at com.example.dogglers.ButtonTests.clicking_horizontal_list_button_displays_horizontal_list(ButtonTests.kt:60)</failure>
+  </testcase>
+  <testcase name="clicking_grid_list_button_displays_grid_list" classname="com.example.dogglers.ButtonTests" time="33.288">
+    <failure>androidx.test.espresso.NoActivityResumedException: No activities in stage RESUMED. Did you forget to launch the activity. (test.getActivity() or similar)?
+at dalvik.system.VMStack.getThreadStackTrace(Native Method)
+at java.lang.Thread.getStackTrace(Thread.java:1841)
+at androidx.test.espresso.base.DefaultFailureHandler.getUserFriendlyError(DefaultFailureHandler.java:12)
+at androidx.test.espresso.base.DefaultFailureHandler.handle(DefaultFailureHandler.java:7)
+at androidx.test.espresso.ViewInteraction.waitForAndHandleInteractionResults(ViewInteraction.java:8)
+at androidx.test.espresso.ViewInteraction.desugaredPerform(ViewInteraction.java:11)
+at androidx.test.espresso.ViewInteraction.perform(ViewInteraction.java:4)
+at com.example.dogglers.ButtonTests.clicking_grid_list_button_displays_grid_list(ButtonTests.kt:66)</failure>
+  </testcase>
+  <testcase name="clicking_vertical_list_button_displays_vertical_list" classname="com.example.dogglers.ButtonTests" time="33.291">
+    <failure>androidx.test.espresso.NoActivityResumedException: No activities in stage RESUMED. Did you forget to launch the activity. (test.getActivity() or similar)?
+at dalvik.system.VMStack.getThreadStackTrace(Native Method)
+at java.lang.Thread.getStackTrace(Thread.java:1841)
+at androidx.test.espresso.base.DefaultFailureHandler.getUserFriendlyError(DefaultFailureHandler.java:12)
+at androidx.test.espresso.base.DefaultFailureHandler.handle(DefaultFailureHandler.java:7)
+at androidx.test.espresso.ViewInteraction.waitForAndHandleInteractionResults(ViewInteraction.java:8)
+at androidx.test.espresso.ViewInteraction.desugaredPerform(ViewInteraction.java:11)
+at androidx.test.espresso.ViewInteraction.perform(ViewInteraction.java:4)
+at com.example.dogglers.ButtonTests.clicking_vertical_list_button_displays_vertical_list(ButtonTests.kt:54)</failure>
+  </testcase>
+  <testcase name="horizontal_list_button_is_displayed" classname="com.example.dogglers.ButtonTests" time="33.169" />
+  <testcase name="vertical_list_button_is_displayed" classname="com.example.dogglers.ButtonTests" time="0.673" />
+</testsuite>

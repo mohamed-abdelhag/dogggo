@@ -1,0 +1,857 @@
+09-23 23:05:47.549 20383 20415 I TestRunner: started: vertical_list_button_is_displayed(com.example.dogglers.ButtonTests)
+09-23 23:05:47.558 20383 20415 W Settings: Setting always_finish_activities has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+09-23 23:05:47.564  1186  1232 I ChimeraSystemEventListener: appLaunchIntent package name is: com.example.dogglers
+09-23 23:05:47.566  1186  2191 I SemDvfsHyPerManager: acquire hyper - AMS_APP_SWITCH/1186@20, type = -999
+09-23 23:05:47.566   795   875 I HYPER-HAL: [RequestManager.cpp]acquire(): Acquired ID : 727841  [1186 / 20]    HINT : AMS_APP_SWITCH    list :
+09-23 23:05:47.566   871   917 I SurfaceFlinger: id=38799 createSurf flag=24004, Task=7706#38799
+09-23 23:05:47.567  4177  4177 I SemDvfsHyPerManager: acquire hyper - APP_START_SHORT/4177@16, type = -999
+09-23 23:05:47.568   795   875 I HYPER-HAL: [RequestManager.cpp]acquire(): Acquired ID : 8792737  [4177 / 16]    HINT : APP_START    list : [TIMEOUT / 1500]
+09-23 23:05:47.568   871   917 I SurfaceFlinger: id=38800 createSurf flag=80004, ActivityRecord{cfa4716 u0 com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity} t7706}#38800
+09-23 23:05:47.573   966  3324 I CameraService: onUidStateChanged: uid=10051, procState is changed. (0 -> 1)
+09-23 23:05:47.573  1186  4202 I SemDvfsHyPerManager: acquire hyper - AMS_APP_LAUNCH/1186@17, type = -999
+09-23 23:05:47.573   795   875 I HYPER-HAL: [RequestManager.cpp]acquire(): Acquired ID : 724223  [1186 / 17]    HINT : AMS_APP_LAUNCH    list :
+09-23 23:05:47.574  2633  2633 E pageboostd: Received HALT command code 2
+09-23 23:05:47.574  4177  4177 I SemDvfsHyPerManager: acquire hyper - APP_START/4177@18, type = -999
+09-23 23:05:47.574  1602  1661 D NativeCustomFrequencyManager: [NativeCFMS] BpCustomFrequencyManager::BpCustomFrequencyManager()
+09-23 23:05:47.574   795   875 I HYPER-HAL: [RequestManager.cpp]acquire(): Acquired ID : 8801128  [4177 / 18]    HINT : APP_START    list :
+09-23 23:05:47.576  2080  2080 I BaseActivity: removeActivityFlags, flags : 16
+09-23 23:05:47.576  2080  2080 I BaseActivity: removeActivityFlags, flags : 6
+09-23 23:05:47.576  2080  2080 I DragController: endDrag
+09-23 23:05:47.576  2080  2080 W LauncherAppWidgetHost: setShouldListenFlag, mFlags:15 flag:resume on:false isFront:false
+09-23 23:05:47.576  2080  2080 I SPayUpdater: updateSpayHandler launcher activity is paused false
+09-23 23:05:47.580  1186  1745 D InputDispatcher: Focused application(0): ActivityRecord{cfa4716 u0 com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity} t7706}
+09-23 23:05:47.583  2080  2080 I TopTaskTracker: onTaskMovedToFront : taskId = 7706
+09-23 23:05:47.584  1186  4202 D InputTransport: Input channel constructed: 'c4a7ffa', fd=976
+09-23 23:05:47.584  1186  4202 D InputTransport: Input channel constructed: 'c4a7ffa', fd=978
+09-23 23:05:47.584  1186  4202 D InputTransport: Input channel constructed: 'c4a7ffa', fd=979
+09-23 23:05:47.585   871  2164 I SurfaceFlinger: id=38801 createSurf flag=80004, c4a7ffa Splash Screen com.example.dogglers#38801
+09-23 23:05:47.586  1186  4202 D InputTransport: Input channel destroyed: 'c4a7ffa', fd=979
+09-23 23:05:47.587  1602  1659 D InsetsController: onStateChanged: InsetsState: {mDisplayFrame=Rect(0, 0 - 1080, 2400), mDisplayCutout=DisplayCutout{insets=Rect(0, 80 - 0, 0) waterfall=Insets{left=0, top=0, right=0, bottom=0} boundingRect={Bounds=[Rect(0, 0 - 0, 0), Rect(468, 0 - 612, 80), Rect(0, 0 - 0, 0), Rect(0, 0 - 0, 0)]} cutoutPathParserInfo={CutoutPathParserInfo{displayWidth=1080 displayHeight=2400 physicalDisplayWidth=1080 physicalDisplayHeight=2400 density={2.8125} cutoutSpec={M 0,0 H -25.6 V 28.44444444444444 H 25.6 V 0 H 0 Z @dp} rotation={0} scale={1.0} physicalPixelDisplaySizeRatio={1.0}}}}, mRoundedCorners=RoundedCorners{[RoundedCorner{position=TopLeft, radius=90, center=Point(90, 90)}, RoundedCorner{position=TopRight, radius=90, center=Point(990, 90)}, RoundedCorner{position=BottomRight, radius=90, center=Point(990, 2310)}, RoundedCorner{position=BottomLeft, radius=90, center=Point(90, 2310)}]}  mRoundedCornerFrame=Rect(0, 0 - 1080, 2400), mPrivacyIndicatorBounds=PrivacyIndicatorBounds {static bounds=Rect(956, 0 - 1080, 80) rotation=0}, mSources= { InsetsSource: {mType=ITYPE_STATUS_BAR, mFrame=[0,0][1080,80], mVisible=true, mInsetsRoundedCornerFrame=false}, InsetsSource: {mType=ITYPE_NAVIGATION_BAR, mFrame=[0,2400][1080,2400], mVisible=true, mInsetsRoundedCornerFrame=false}, InsetsSource: {mType=ITYPE_LEFT_GESTURES, mFrame=[0,0][67,2400], mVisible=true, mInsetsRoundedCornerFrame=false}, InsetsSource: {mType=ITYPE_RIGHT_GESTURES, mFrame=[1013,0][1080,2400], mVisible=true, mInsetsRoundedCornerFrame=false}, InsetsSource: {mType=ITYPE_TOP_MANDATORY_GESTURES, mFrame=[0,0][1080,114], mVisible=true, mInsetsRoundedCornerFrame=false}, InsetsSource: {mType=ITYPE_BOTTOM_MANDATORY_GESTURES, mFrame=[0,2344][1080,2400], mVisible=true, mInsetsRoundedCornerFrame=false}, InsetsSource: {mType=ITYPE_LEFT_DISPLAY_CUTOUT, mFrame=[0,0][-100000,2400], mVisible=true, mInsetsRoundedCornerFrame=false}, InsetsSource: {mType=ITYPE_TOP_DISPLAY_CUTOUT, mFrame=[0,0][1080,80], mVisible=true, mInsetsRoundedCornerFrame=false}, InsetsSource: {mType=ITYPE_RIGHT_DISPLAY_CUTOUT, mFrame=[100000,0][1080,2400], mVisible=true, mInsetsRoundedCornerFrame=false}, InsetsSource: {mType=ITYPE_BOTTOM_DISPLAY_CUTOUT, mFrame=[0,100000][1080,2400], mVisible=true, mInsetsRoundedCornerFrame=false}, InsetsSource: {mType=ITYPE_TOP_TAPPABLE_ELEMENT, mFrame=[0,0][1080,80], mVisible=true, mInsetsRoundedCornerFrame=false}, InsetsSource: {mType=ITYPE_BOTTOM_TAPPABLE_ELEMENT, mFrame=[0,0][0,0], mVisible=true, mInsetsRoundedCornerFrame=false}, InsetsSource: {mType=ITYPE_IME, mFrame=[0,0][0,0], mVisibleFrame=[0,1392][1080,2400], mVisible=false, mInsetsRoundedCornerFrame=false} } host=Splash Screen com.example.dogglers from=android.view.ViewRootImpl.setView:1732
+09-23 23:05:47.588  1602  1659 I ViewRootImpl@2257941[dogglers]: setView = android.widget.FrameLayout@78f687d TM=true
+09-23 23:05:47.588   871   871 I SurfaceFlinger: [2961ae6 com.sec.android.app.launcher/com.sec.android.app.launcher.activities.LauncherActivity#20052] FrameRatePriority: -1
+09-23 23:05:47.588  1602  1659 I ViewRootImpl@2257941[dogglers]: performTraversals params={(0,0)(fillxfill) sim={adjust=pan} ty=APPLICATION_STARTING fmt=TRANSLUCENT wanim=0x1030001
+09-23 23:05:47.588  1602  1659 I ViewRootImpl@2257941[dogglers]:   fl=81030118
+09-23 23:05:47.588  1602  1659 I ViewRootImpl@2257941[dogglers]:   pfl=16000010
+09-23 23:05:47.588  1602  1659 I ViewRootImpl@2257941[dogglers]:   bhv=DEFAULT
+09-23 23:05:47.588  1602  1659 I ViewRootImpl@2257941[dogglers]:   fitSides= naviIconColor=0}
+09-23 23:05:47.589  1602  1659 I ViewRootImpl@2257941[dogglers]: performTraversals mFirst=true windowShouldResize=true viewVisibilityChanged=false mForceNextWindowRelayout=false params={(0,0)(fillxfill) sim={adjust=pan} ty=APPLICATION_STARTING fmt=TRANSLUCENT wanim=0x1030001
+09-23 23:05:47.589  1602  1659 I ViewRootImpl@2257941[dogglers]:   fl=81030118
+09-23 23:05:47.589  1602  1659 I ViewRootImpl@2257941[dogglers]:   pfl=16000010
+09-23 23:05:47.589  1602  1659 I ViewRootImpl@2257941[dogglers]:   bhv=DEFAULT
+09-23 23:05:47.589  1602  1659 I ViewRootImpl@2257941[dogglers]:   fitSides= naviIconColor=0}
+09-23 23:05:47.591  1186  2288 V WindowManager: Relayout Window{c4a7ffa u0 Splash Screen com.example.dogglers}: viewVisibility=0 req=1080x2400 d0
+09-23 23:05:47.592   871  2164 I SurfaceFlinger: id=38802 createSurf flag=40004, Splash Screen com.example.dogglers$_1602#38802
+09-23 23:05:47.594  1186  2288 V WindowManager: Relayout hash=c4a7ffa, pid=1602, syncId=-1: mAttrs={(0,0)(fillxfill) sim={adjust=pan} ty=APPLICATION_STARTING fmt=TRANSLUCENT wanim=0x1030001
+09-23 23:05:47.594  1186  2288 V WindowManager:   fl=81030118
+09-23 23:05:47.594  1186  2288 V WindowManager:   pfl=16000010
+09-23 23:05:47.594  1186  2288 V WindowManager:   bhv=DEFAULT
+09-23 23:05:47.594  1186  2288 V WindowManager:   fitSides= naviIconColor=0}
+09-23 23:05:47.595 20383 20383 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@21b8af1 in: PRE_ON_CREATE
+09-23 23:05:47.595 20383 20383 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.MainActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@21b8af1
+09-23 23:05:47.596  1602  1659 I ViewRootImpl@2257941[dogglers]: updateBlastSurfaceIfNeeded mBlastBufferQueue=null isSameSurfaceControl=false
+09-23 23:05:47.596  1602  1659 I BLASTBufferQueue: new BLASTBufferQueue, mName= ViewRootImpl@2257941[dogglers] mNativeObject= 0xb400007dbe37dc50 sc.mNativeObject= 0xb400007d4e757380 caller= android.view.ViewRootImpl.updateBlastSurfaceIfNeeded:2909 android.view.ViewRootImpl.relayoutWindow:9847 android.view.ViewRootImpl.performTraversals:3884 android.view.ViewRootImpl.doTraversal:3116 android.view.ViewRootImpl$TraversalRunnable.run:10885 android.view.Choreographer$CallbackRecord.run:1301 android.view.Choreographer$CallbackRecord.run:1309 android.view.Choreographer.doCallbacks:923 android.view.Choreographer.doFrame:852 android.view.Choreographer$FrameDisplayEventReceiver.run:1283
+09-23 23:05:47.597  1602  1659 I BLASTBufferQueue: update, w= 1080 h= 2400 mName = ViewRootImpl@2257941[dogglers] mNativeObject= 0xb400007dbe37dc50 sc.mNativeObject= 0xb400007d4e757380 format= -3 caller= android.graphics.BLASTBufferQueue.<init>:84 android.view.ViewRootImpl.updateBlastSurfaceIfNeeded:2909 android.view.ViewRootImpl.relayoutWindow:9847 android.view.ViewRootImpl.performTraversals:3884 android.view.ViewRootImpl.doTraversal:3116 android.view.ViewRootImpl$TraversalRunnable.run:10885
+09-23 23:05:47.597  1186  1232 I SemPersonaManager: SecureFolder personaId = 150
+09-23 23:05:47.597  1602  1659 I ViewRootImpl@2257941[dogglers]: Relayout returned: old=(0,0,1080,2400) new=(0,0,1080,2400) req=(1080,2400)0 dur=7 res=0x3 s={true 0xb400007e4e5f36e0} ch=true seqId=0
+09-23 23:05:47.597  1602  1659 I ViewRootImpl@2257941[dogglers]: mThreadedRenderer.initialize() mSurface={isValid=true 0xb400007e4e5f36e0} hwInitialized=true
+09-23 23:05:47.598  1602  1661 D OpenGLRenderer: eglCreateWindowSurface
+09-23 23:05:47.599   871   871 D SurfaceFlinger: [input] inputWindowCommands.focusRequests size is 1
+09-23 23:05:47.600 20383 20383 I DecorView: [INFO] isPopOver=false config=true
+09-23 23:05:47.600 20383 20383 I DecorView: updateCaptionType: isFloating=false isApplication=true hasWindowDecorCaption=false this=DecorView@6336044[]
+09-23 23:05:47.600 20383 20383 D DecorView: setCaptionType = 0, this = DecorView@6336044[]
+09-23 23:05:47.601   871   965 D SurfaceFlinger: [input] setFocusedWindow: <null>
+09-23 23:05:47.602 20383 20383 I DecorView: getCurrentDensityDpi: from real metrics. densityDpi=450 msg=resources_loaded
+09-23 23:05:47.602 20383 20383 I DecorView: setWindowBackground: isPopOver=false color=ff010101 d=android.graphics.drawable.StateListDrawable@3cce52d
+09-23 23:05:47.603 20383 20383 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@21b8af1 in: CREATED
+09-23 23:05:47.603 20383 20383 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.MainActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@21b8af1
+09-23 23:05:47.604 20383 20383 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@21b8af1 in: STARTED
+09-23 23:05:47.604 20383 20383 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.MainActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@21b8af1
+09-23 23:05:47.608  1186  2938 D InputDispatcher: Focus left window (0): 2961ae6 com.sec.android.app.launcher/com.sec.android.app.launcher.activities.LauncherActivity
+09-23 23:05:47.609  2080  2080 I ViewRootImpl@782dd03[LauncherActivity]: MSG_WINDOW_FOCUS_CHANGED 0 0
+09-23 23:05:47.610  2080  2080 I BaseActivity: removeActivityFlags, flags : 8
+09-23 23:05:47.612  1602  1659 I ViewRootImpl@2257941[dogglers]: reportNextDraw android.view.ViewRootImpl.performTraversals:4438 android.view.ViewRootImpl.doTraversal:3116 android.view.ViewRootImpl$TraversalRunnable.run:10885 android.view.Choreographer$CallbackRecord.run:1301 android.view.Choreographer$CallbackRecord.run:1309
+09-23 23:05:47.612  1602  1659 I ViewRootImpl@2257941[dogglers]: Setup new sync id=0
+09-23 23:05:47.612  1602  1659 I ViewRootImpl@2257941[dogglers]: Setting syncFrameCallback
+09-23 23:05:47.612  1602  1659 I ViewRootImpl@2257941[dogglers]: registerCallbacksForSync syncBuffer=false
+09-23 23:05:47.613  1602  1685 I ViewRootImpl@2257941[dogglers]: Received frameDrawingCallback syncResult=0 frameNum=1.
+09-23 23:05:47.613  1602  1685 I ViewRootImpl@2257941[dogglers]: Setting up sync and frameCommitCallback
+09-23 23:05:47.614  1186  1232 D EnterpriseDeviceManagerService: isMdmAdminPresentInternal() : MDM Admin Found - com.samsung.knox.securefolder
+09-23 23:05:47.615  1602  1661 I BLASTBufferQueue: [ViewRootImpl@2257941[dogglers]#2263](f:0,a:0) onFrameAvailable the first frame is available
+09-23 23:05:47.616  1602  1661 I ViewRootImpl@2257941[dogglers]: Received frameCommittedCallback lastAttemptedDrawFrameNum=1 didProduceBuffer=true
+09-23 23:05:47.617  1602  1661 D OpenGLRenderer: CFMS:: SetUp Pid : 1602    Tid : 1661
+09-23 23:05:47.618  1602  1661 W Parcel  : Expecting binder but got null!
+09-23 23:05:47.618  1602  1659 I ViewRootImpl@2257941[dogglers]: onSyncComplete
+09-23 23:05:47.618  1602  1659 I ViewRootImpl@2257941[dogglers]: setupSync seqId=0 mSyncId=0 fn=1 caller=android.view.ViewRootImpl$$ExternalSyntheticLambda11.accept:6 android.window.SurfaceSyncer.lambda$setupSync$1$android-window-SurfaceSyncer:128 android.window.SurfaceSyncer$$ExternalSyntheticLambda1.accept:8 android.window.SurfaceSyncer$SyncSet.checkIfSyncIsComplete:382 android.window.SurfaceSyncer$SyncSet.markSyncReady:359 android.window.SurfaceSyncer.markSyncReady:151 android.view.ViewRootImpl.performTraversals:4503
+09-23 23:05:47.618  1602  1659 I ViewRootImpl@2257941[dogglers]: reportDrawFinished seqId=0 mSyncId=-1 fn=1 mSurfaceChangedTransaction=0xb400007d7e3e12f0
+09-23 23:05:47.623   871   917 I SurfaceFlinger: id=38803 createSurf flag=80004, ActivityRecord{30d21bd u0 com.example.dogglers/.MainActivity} t7706}#38803
+09-23 23:05:47.631  2633  2633 E pageboostd: Received HALT command code 2
+09-23 23:05:47.631 20383 20383 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@21b8af1 in: RESUMED
+09-23 23:05:47.631 20383 20383 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.MainActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@21b8af1
+09-23 23:05:47.636 20383 20383 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@21b8af1 in: PAUSED
+09-23 23:05:47.637 20383 20383 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.MainActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@21b8af1
+09-23 23:05:47.640  1186  4154 D InputDispatcher: Focused application(0): ActivityRecord{30d21bd u0 com.example.dogglers/.MainActivity} t7706}
+09-23 23:05:47.643   871  2164 I SurfaceFlinger: id=38804 createSurf flag=24000, Surface(name=Task=1)/@0x8b8da95 - animation-leash of app_transition#38804
+09-23 23:05:47.644   871  2164 I SurfaceFlinger: id=38805 createSurf flag=24004, Surface(name=Task=7706)/@0x413bedc - animation-leash of app_transition#38805
+09-23 23:05:47.646   871  2164 I SurfaceFlinger: id=38806 createSurf flag=80000, d5ce431 ActivityRecordInputSink com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity#38806
+09-23 23:05:47.647   871  2164 I SurfaceFlinger: id=38807 createSurf flag=80000, 365056f ActivityRecordInputSink com.example.dogglers/.MainActivity#38807
+09-23 23:05:47.649  1602  1651 D Bubbles : onLocusVisibilityChanged: LocusId[17_chars] visible=false
+09-23 23:05:47.649  1602  1617 I ViewRootImpl@2257941[dogglers]: Resizing android.view.ViewRootImpl@793c372: frame = [0,0][1080,2400] reportDraw = false forceLayout = false syncSeqId = 0
+09-23 23:05:47.649  1602  1659 I ViewRootImpl@2257941[dogglers]: handleResized, msg = 4 frames=ClientWindowFrames{frame=[0,0][1080,2400] display=[0,0][1080,2400] parentFrame=[0,0][0,0] parentClippedByDisplayCutout=false} forceNextWindowRelayout=false displayId=0 resizeMode=-1 frameChanged=false displayFrameChanged=false configChanged=false displayChanged=false
+09-23 23:05:47.652  1186  2620 I MediaSessionMonitor: Media session stopped : controllerList empty
+09-23 23:05:47.655 20383 20383 D LifecycleMonitor: Lifecycle status change: com.example.dogglers.MainActivity@1028ce5 in: PRE_ON_CREATE
+09-23 23:05:47.655   871   871 I Layer   : Layer [Splash Screen com.example.dogglers$_1602#38802] hidden!! flag(0)
+09-23 23:05:47.655 20383 20383 V ActivityScenario: Activity lifecycle changed event received but ignored because the reported transition was not ON_CREATE while the last known transition was PRE_ON_CREATE
+09-23 23:05:47.661  1186  1232 I SemPersonaManager: SecureFolder personaId = 150
+09-23 23:05:47.662  1186  1186 D PocketProximityManager: setStateOut()
+09-23 23:05:47.672 20383 20383 I DecorView: [INFO] isPopOver=false config=true
+09-23 23:05:47.672 20383 20383 I DecorView: updateCaptionType: isFloating=false isApplication=true hasWindowDecorCaption=false this=DecorView@5d57fb3[]
+09-23 23:05:47.672 20383 20383 D DecorView: setCaptionType = 0, this = DecorView@5d57fb3[]
+09-23 23:05:47.673 20383 20383 I DecorView: getCurrentDensityDpi: from real metrics. densityDpi=450 msg=resources_loaded
+09-23 23:05:47.673 20383 20383 I DecorView: setWindowBackground: isPopOver=false color=ff121212 d=android.graphics.drawable.ColorDrawable@c8524e9
+09-23 23:05:47.678  1186  1232 D EnterpriseDeviceManagerService: isMdmAdminPresentInternal() : MDM Admin Found - com.samsung.knox.securefolder
+09-23 23:05:47.680  1186  2620 I MediaSessionMonitor: Media session stopped : controllerList empty
+09-23 23:05:47.682 20383 20383 D LifecycleMonitor: Lifecycle status change: com.example.dogglers.MainActivity@1028ce5 in: CREATED
+09-23 23:05:47.682 20383 20383 V ActivityScenario: Update currentActivityStage to CREATED, currentActivity=com.example.dogglers.MainActivity@1028ce5
+09-23 23:05:47.683   871   871 D SurfaceFlinger: Display 4633128672291735932 HWC layers:
+09-23 23:05:47.683   871   871 D SurfaceFlinger:      DEVICE | 0xb400007cb2d28990 | 0100 | RGBx_8888    |  530.0    0.0 1610.0 2400.0 |    0    0 1080 2400 | Wallpaper BBQ wrapper#11204
+09-23 23:05:47.683   871   871 D SurfaceFlinger:      DEVICE | 0xb400007cb2d2b8d0 | 0100 | RGBA_8888    |    0.0    0.0 1080.0 2400.0 |    0    0 1080 2400 | com.sec.android.app.launcher/com.sec[...]ivities.LauncherActivity$_2080#38790
+09-23 23:05:47.683   871   871 D SurfaceFlinger:      DEVICE | 0xb400007cb2d32c50 | 0100 | RGBA_8888    |    0.0    0.0 1080.0 2400.0 |   78  173 1002 2227 | Splash Screen com.example.dogglers$_1602#38802
+09-23 23:05:47.683   871   871 D SurfaceFlinger:      DEVICE | 0xb400007cb2d3cd50 | 0100 | RGBA_8888    |    0.0    0.0 1080.0   80.0 |    0    0 1080   80 | StatusBar$_1602#90
+09-23 23:05:47.683   871   871 D SurfaceFlinger:      DEVICE | 0xb400007cb2d30b10 | 0100 | RGBA_8888    |    0.0    0.0 1080.0  135.0 |    0 2265 1080 2400 | NavigationBar0$_1602#85
+09-23 23:05:47.683   871   871 D SurfaceFlinger:
+09-23 23:05:47.683 20383 20383 D LifecycleMonitor: Lifecycle status change: com.example.dogglers.MainActivity@1028ce5 in: STARTED
+09-23 23:05:47.683 20383 20383 V ActivityScenario: Update currentActivityStage to STARTED, currentActivity=com.example.dogglers.MainActivity@1028ce5
+09-23 23:05:47.684 20383 20383 D LifecycleMonitor: Lifecycle status change: com.example.dogglers.MainActivity@1028ce5 in: RESUMED
+09-23 23:05:47.684 20383 20383 V ActivityScenario: Update currentActivityStage to RESUMED, currentActivity=com.example.dogglers.MainActivity@1028ce5
+09-23 23:05:47.685 20383 20383 I MSHandlerLifeCycle: check: return. pkg=com.example.dogglers parent=null callers=com.android.internal.policy.DecorView.setVisibility:4416 android.app.ActivityThread.handleResumeActivity:5476 android.app.servertransaction.ResumeActivityItem.execute:54 android.app.servertransaction.ActivityTransactionItem.execute:45 android.app.servertransaction.TransactionExecutor.executeLifecycleState:176
+09-23 23:05:47.685 20383 20383 I MSHandlerLifeCycle: removeMultiSplitHandler: no exist. decor=DecorView@5d57fb3[]
+09-23 23:05:47.688 20383 20417 D NativeCustomFrequencyManager: [NativeCFMS] BpCustomFrequencyManager::BpCustomFrequencyManager()
+09-23 23:05:47.690  1186  1771 D InputTransport: Input channel constructed: '4b2970c', fd=959
+09-23 23:05:47.690  1186  1771 D InputTransport: Input channel constructed: '4b2970c', fd=1011
+09-23 23:05:47.690  1186  1771 D InputTransport: Input channel constructed: '4b2970c', fd=1013
+09-23 23:05:47.690   871   917 I SurfaceFlinger: id=38808 createSurf flag=80004, 4b2970c com.example.dogglers/com.example.dogglers.MainActivity#38808
+09-23 23:05:47.691  1186  1771 D InputTransport: Input channel destroyed: '4b2970c', fd=1013
+09-23 23:05:47.692 20383 20383 D InsetsController: onStateChanged: InsetsState: {mDisplayFrame=Rect(0, 0 - 1080, 2400), mDisplayCutout=DisplayCutout{insets=Rect(0, 80 - 0, 0) waterfall=Insets{left=0, top=0, right=0, bottom=0} boundingRect={Bounds=[Rect(0, 0 - 0, 0), Rect(468, 0 - 612, 80), Rect(0, 0 - 0, 0), Rect(0, 0 - 0, 0)]} cutoutPathParserInfo={CutoutPathParserInfo{displayWidth=1080 displayHeight=2400 physicalDisplayWidth=1080 physicalDisplayHeight=2400 density={2.8125} cutoutSpec={M 0,0 H -25.6 V 28.44444444444444 H 25.6 V 0 H 0 Z @dp} rotation={0} scale={1.0} physicalPixelDisplaySizeRatio={1.0}}}}, mRoundedCorners=RoundedCorners{[RoundedCorner{position=TopLeft, radius=90, center=Point(90, 90)}, RoundedCorner{position=TopRight, radius=90, center=Point(990, 90)}, RoundedCorner{position=BottomRight, radius=90, center=Point(990, 2310)}, RoundedCorner{position=BottomLeft, radius=90, center=Point(90, 2310)}]}  mRoundedCornerFrame=Rect(0, 0 - 1080, 2400), mPrivacyIndicatorBounds=PrivacyIndicatorBounds {static bounds=Rect(956, 0 - 1080, 80) rotation=0}, mSources= { InsetsSource: {mType=ITYPE_STATUS_BAR, mFrame=[0,0][1080,80], mVisible=true, mInsetsRoundedCornerFrame=false}, InsetsSource: {mType=ITYPE_NAVIGATION_BAR, mFrame=[0,2400][1080,2400], mVisible=true, mInsetsRoundedCornerFrame=false}, InsetsSource: {mType=ITYPE_LEFT_GESTURES, mFrame=[0,0][67,2400], mVisible=true, mInsetsRoundedCornerFrame=false}, InsetsSource: {mType=ITYPE_RIGHT_GESTURES, mFrame=[1013,0][1080,2400], mVisible=true, mInsetsRoundedCornerFrame=false}, InsetsSource: {mType=ITYPE_TOP_MANDATORY_GESTURES, mFrame=[0,0][1080,114], mVisible=true, mInsetsRoundedCornerFrame=false}, InsetsSource: {mType=ITYPE_BOTTOM_MANDATORY_GESTURES, mFrame=[0,2344][1080,2400], mVisible=true, mInsetsRoundedCornerFrame=false}, InsetsSource: {mType=ITYPE_LEFT_DISPLAY_CUTOUT, mFrame=[0,0][-100000,2400], mVisible=true, mInsetsRoundedCornerFrame=false}, InsetsSource: {mType=ITYPE_TOP_DISPLAY_CUTOUT, mFrame=[0,0][1080,80], mVisible=true, mInsetsRoundedCornerFrame=false}, InsetsSource: {mType=ITYPE_RIGHT_DISPLAY_CUTOUT, mFrame=[100000,0][1080,2400], mVisible=true, mInsetsRoundedCornerFrame=false}, InsetsSource: {mType=ITYPE_BOTTOM_DISPLAY_CUTOUT, mFrame=[0,100000][1080,2400], mVisible=true, mInsetsRoundedCornerFrame=false}, InsetsSource: {mType=ITYPE_TOP_TAPPABLE_ELEMENT, mFrame=[0,0][1080,80], mVisible=true, mInsetsRoundedCornerFrame=false}, InsetsSource: {mType=ITYPE_BOTTOM_TAPPABLE_ELEMENT, mFrame=[0,0][0,0], mVisible=true, mInsetsRoundedCornerFrame=false}, InsetsSource: {mType=ITYPE_IME, mFrame=[0,0][0,0], mVisibleFrame=[0,1392][1080,2400], mVisible=false, mInsetsRoundedCornerFrame=false} } host=com.example.dogglers/com.example.dogglers.MainActivity from=android.view.ViewRootImpl.setView:1732
+09-23 23:05:47.694 20383 20383 I ViewRootImpl@d86bea0[MainActivity]: setView = com.android.internal.policy.DecorView@5d57fb3 TM=true
+09-23 23:05:47.694 20383 20383 I MSHandlerLifeCycle: removeMultiSplitHandler: no exist. decor=DecorView@5d57fb3[MainActivity]
+09-23 23:05:47.695  1186  1277 D AnalyticsContainerHandler: handleMessage : { when=0 what=1 target=com.android.server.knox.KnoxAnalyticsContainer$AnalyticsHandler }
+09-23 23:05:47.705 20383 20383 I ViewRootImpl@d86bea0[MainActivity]: performTraversals params={(0,0)(fillxfill) sim={adjust=pan forwardNavigation} ty=BASE_APPLICATION wanim=0x1030309
+09-23 23:05:47.705 20383 20383 I ViewRootImpl@d86bea0[MainActivity]:   fl=81810100
+09-23 23:05:47.705 20383 20383 I ViewRootImpl@d86bea0[MainActivity]:   pfl=12020040
+09-23 23:05:47.705 20383 20383 I ViewRootImpl@d86bea0[MainActivity]:   bhv=DEFAULT
+09-23 23:05:47.705 20383 20383 I ViewRootImpl@d86bea0[MainActivity]:   fitSides= naviIconColor=0}
+09-23 23:05:47.706 20383 20383 I ViewRootImpl@d86bea0[MainActivity]: performTraversals mFirst=true windowShouldResize=true viewVisibilityChanged=false mForceNextWindowRelayout=false params={(0,0)(fillxfill) sim={adjust=pan forwardNavigation} ty=BASE_APPLICATION wanim=0x1030309
+09-23 23:05:47.706 20383 20383 I ViewRootImpl@d86bea0[MainActivity]:   fl=81810100
+09-23 23:05:47.706 20383 20383 I ViewRootImpl@d86bea0[MainActivity]:   pfl=12020040
+09-23 23:05:47.706 20383 20383 I ViewRootImpl@d86bea0[MainActivity]:   bhv=DEFAULT
+09-23 23:05:47.706 20383 20383 I ViewRootImpl@d86bea0[MainActivity]:   fitSides= naviIconColor=0}
+09-23 23:05:47.706  1186  4154 V WindowManager: Relayout Window{4b2970c u0 com.example.dogglers/com.example.dogglers.MainActivity}: viewVisibility=0 req=1080x2400 d0
+09-23 23:05:47.706   871   917 I SurfaceFlinger: id=38809 createSurf flag=40004, com.example.dogglers/com.example.dogglers.MainActivity$_20383#38809
+09-23 23:05:47.709   871  2164 I SurfaceFlinger: id=38810 createSurf flag=24000, Surface(name=1bd1a64 StatusBar)/@0x43c3355 - animation-leash of insets_animation#38810
+09-23 23:05:47.709   871  2164 I SurfaceFlinger: id=38811 createSurf flag=24000, Surface(name=dd7eda7 NavigationBar0)/@0x5d9afd1 - animation-leash of insets_animation#38811
+09-23 23:05:47.711  2080 22386 I TouchInteractionService: onSystemUiStateChanged, stateFlags : 131072 |allow_gesture|
+09-23 23:05:47.711  1186  4154 V WindowManager: Relayout hash=4b2970c, pid=20383, syncId=-1: mAttrs={(0,0)(fillxfill) sim={adjust=pan forwardNavigation} ty=BASE_APPLICATION wanim=0x1030309
+09-23 23:05:47.711  1186  4154 V WindowManager:   fl=81810100
+09-23 23:05:47.711  1186  4154 V WindowManager:   pfl=12020040
+09-23 23:05:47.711  1186  4154 V WindowManager:   bhv=DEFAULT
+09-23 23:05:47.711  1186  4154 V WindowManager:   fitSides= naviIconColor=0}
+09-23 23:05:47.711  2080  2080 I RecentsAnimationDeviceState: setSystemUiFlags, stateFlags : 131072
+09-23 23:05:47.711  2080  2080 I TouchInteractionService: onSystemUiFlagsChanged, lastSysUIFlags : 0
+09-23 23:05:47.713 20383 20383 I ViewRootImpl@d86bea0[MainActivity]: updateBlastSurfaceIfNeeded mBlastBufferQueue=null isSameSurfaceControl=false
+09-23 23:05:47.713 20383 20383 I BLASTBufferQueue: new BLASTBufferQueue, mName= ViewRootImpl@d86bea0[MainActivity] mNativeObject= 0xb400007dbe244e10 sc.mNativeObject= 0xb400007d4e267820 caller= android.view.ViewRootImpl.updateBlastSurfaceIfNeeded:2909 android.view.ViewRootImpl.relayoutWindow:9847 android.view.ViewRootImpl.performTraversals:3884 android.view.ViewRootImpl.doTraversal:3116 android.view.ViewRootImpl$TraversalRunnable.run:10885 android.view.Choreographer$CallbackRecord.run:1301 android.view.Choreographer$CallbackRecord.run:1309 android.view.Choreographer.doCallbacks:923 android.view.Choreographer.doFrame:852 android.view.Choreographer$FrameDisplayEventReceiver.run:1283
+09-23 23:05:47.714 20383 20383 I BLASTBufferQueue: update, w= 1080 h= 2400 mName = ViewRootImpl@d86bea0[MainActivity] mNativeObject= 0xb400007dbe244e10 sc.mNativeObject= 0xb400007d4e267820 format= -1 caller= android.graphics.BLASTBufferQueue.<init>:84 android.view.ViewRootImpl.updateBlastSurfaceIfNeeded:2909 android.view.ViewRootImpl.relayoutWindow:9847 android.view.ViewRootImpl.performTraversals:3884 android.view.ViewRootImpl.doTraversal:3116 android.view.ViewRootImpl$TraversalRunnable.run:10885
+09-23 23:05:47.714 20383 20383 I ViewRootImpl@d86bea0[MainActivity]: Relayout returned: old=(0,0,1080,2400) new=(0,0,1080,2400) req=(1080,2400)0 dur=7 res=0x3 s={true 0xb400007e4e271080} ch=true seqId=0
+09-23 23:05:47.715 20383 20417 D OpenGLRenderer: eglCreateWindowSurface
+09-23 23:05:47.715 20383 20383 I ViewRootImpl@d86bea0[MainActivity]: mThreadedRenderer.initialize() mSurface={isValid=true 0xb400007e4e271080} hwInitialized=true
+09-23 23:05:47.717 20383 20383 I ViewRootImpl@d86bea0[MainActivity]: reportNextDraw android.view.ViewRootImpl.performTraversals:4438 android.view.ViewRootImpl.doTraversal:3116 android.view.ViewRootImpl$TraversalRunnable.run:10885 android.view.Choreographer$CallbackRecord.run:1301 android.view.Choreographer$CallbackRecord.run:1309
+09-23 23:05:47.717 20383 20383 I ViewRootImpl@d86bea0[MainActivity]: Setup new sync id=0
+09-23 23:05:47.717 20383 20383 I ViewRootImpl@d86bea0[MainActivity]: Setting syncFrameCallback
+09-23 23:05:47.717 20383 20383 I ViewRootImpl@d86bea0[MainActivity]: registerCallbacksForSync syncBuffer=false
+09-23 23:05:47.722   871   871 I Layer   : id=38791 removeFromCurrentState Surface(name=1bd1a64 StatusBar)/@0x43c3355 - animation-leash of insets_animation#38791 (138)
+09-23 23:05:47.722   871   871 I Layer   : id=38792 removeFromCurrentState Surface(name=dd7eda7 NavigationBar0)/@0x5d9afd1 - animation-leash of insets_animation#38792 (138)
+09-23 23:05:47.722   871   871 I SurfaceFlinger: [4b2970c com.example.dogglers/com.example.dogglers.MainActivity#38808] FrameRatePriority: 1
+09-23 23:05:47.722   871   871 D SurfaceFlinger: [input] inputWindowCommands.focusRequests size is 1
+09-23 23:05:47.722   871   871 I SurfaceFlinger: id=38791 Removed Surface(name=1bd1a64 StatusBar)/@0x43c3355 - animation-leash of insets_animation#38791 (138)
+09-23 23:05:47.722   871   871 I SurfaceFlinger: id=38792 Removed Surface(name=dd7eda7 NavigationBar0)/@0x5d9afd1 - animation-leash of insets_animation#38792 (138)
+09-23 23:05:47.723   871   871 I Layer   : id=38791 Destroyed Surface(name=1bd1a64 StatusBar)/@0x43c3355 - animation-leash of insets_animation#38791
+09-23 23:05:47.723   871   871 I Layer   : id=38792 Destroyed Surface(name=dd7eda7 NavigationBar0)/@0x5d9afd1 - animation-leash of insets_animation#38792
+09-23 23:05:47.724 20383 20439 I ViewRootImpl@d86bea0[MainActivity]: Received frameDrawingCallback syncResult=0 frameNum=1.
+09-23 23:05:47.724 20383 20439 I ViewRootImpl@d86bea0[MainActivity]: Setting up sync and frameCommitCallback
+09-23 23:05:47.724   871   965 D SurfaceFlinger: [input] setFocusedWindow: 4b2970c com.example.dogglers/com.example.dogglers.MainActivity
+09-23 23:05:47.725  1186  4154 D InputDispatcher: Focus request (0): 4b2970c com.example.dogglers/com.example.dogglers.MainActivity but waiting because NOT_VISIBLE
+09-23 23:05:47.727 20383 20417 I BLASTBufferQueue: [ViewRootImpl@d86bea0[MainActivity]#16](f:0,a:0) onFrameAvailable the first frame is available
+09-23 23:05:47.728 20383 20417 I ViewRootImpl@d86bea0[MainActivity]: Received frameCommittedCallback lastAttemptedDrawFrameNum=1 didProduceBuffer=true
+09-23 23:05:47.728 20383 20417 D OpenGLRenderer: CFMS:: SetUp Pid : 20383    Tid : 20417
+09-23 23:05:47.729 20383 20417 W Parcel  : Expecting binder but got null!
+09-23 23:05:47.729 20383 20383 I ViewRootImpl@d86bea0[MainActivity]: onSyncComplete
+09-23 23:05:47.729 20383 20383 I ViewRootImpl@d86bea0[MainActivity]: setupSync seqId=0 mSyncId=0 fn=1 caller=android.view.ViewRootImpl$$ExternalSyntheticLambda11.accept:6 android.window.SurfaceSyncer.lambda$setupSync$1$android-window-SurfaceSyncer:128 android.window.SurfaceSyncer$$ExternalSyntheticLambda1.accept:8 android.window.SurfaceSyncer$SyncSet.checkIfSyncIsComplete:382 android.window.SurfaceSyncer$SyncSet.markSyncReady:359 android.window.SurfaceSyncer.markSyncReady:151 android.view.ViewRootImpl.performTraversals:4503
+09-23 23:05:47.730 20383 20383 I ViewRootImpl@d86bea0[MainActivity]: reportDrawFinished seqId=0 mSyncId=-1 fn=1 mSurfaceChangedTransaction=0xb400007d7e238490
+09-23 23:05:47.735  1186  1229 W ziparchive: Unable to open '/data/app/~~V9w7lIv-cWu_MFSZSOkTHg==/com.example.dogglers-3S2VZx11V6cmyN8siyG5IA==/base.dm': No such file or directory
+09-23 23:05:47.736   871   916 I SurfaceFlinger: id=38812 createSurf flag=24000, Surface(name=4b2970c com.example.dogglers/com.example.dogglers.MainActivity)/@0x133b4c2 - animation-leash of starting_reveal#38812
+09-23 23:05:47.736 20383 20383 D RootViewPicker: Root not ready - waiting: 10ms for one to appear.
+09-23 23:05:47.737  1186  4154 I SemDvfsHyPerManager: acquire hyper - AMS_RESUME_TAIL/1186@18, type = -999
+09-23 23:05:47.737  1186  1229 I PkgPredictorService-SecIpmManagerServiceImpl: reportToNAP uid:10512 com.example.dogglers/com.example.dogglers.MainActivity thisTime:170
+09-23 23:05:47.737  1186  4154 I SemDvfsHyPerManager: acquire hyper - AMS_ACT_LAZY/1186@19, type = -999
+09-23 23:05:47.737   743   743 E audit   : type=1400 audit(1695495947.729:372627): avc:  denied  { search } for  pid=868 comm="perfmond" name="host0" dev="sysfs" ino=70513 scontext=u:r:perfmond:s0 tcontext=u:object_r:sysfs_ski_ufs_writable:s0 tclass=dir permissive=0 SEPF_SM-A336E_12_0001 audit_filtered
+09-23 23:05:47.737   795   875 I HYPER-HAL: [RequestManager.cpp]acquire(): Acquired ID : 725428  [1186 / 18]    HINT : AMS_RESUME_TAIL    list :
+09-23 23:05:47.739   795   875 I HYPER-HAL: [RequestManager.cpp]releaseLocked(): Released ID : 727841
+09-23 23:05:47.741 20719 20719 I [WEATHER]FreeStatusCheckService: {[59D59D6A529801523F831777F8F19C604081A727E9C0D6D3E5D7AA165B283248ACCADF3F2BF388AE221F1DDBBFAE68751749A91DB99F828392D5691F32DA3B60]}
+09-23 23:05:47.741  1186  1229 I ActivityTaskManager: Displayed com.example.dogglers/.MainActivity: +170ms
+09-23 23:05:47.741  2633  2633 E pageboostd: Received HALT command code 2
+09-23 23:05:47.744   871   871 I Layer   : Layer [com.example.dogglers/com.example.dogglers.MainActivity$_20383#38809] hidden!! flag(0)
+09-23 23:05:47.745  1602  1686 I ViewRootImpl@2257941[dogglers]: mWNT: t=0xb400007d7e3eb850 mBlastBufferQueue=0xb400007dbe37dc50 fn= 2 caller= android.view.SyncRtSurfaceTransactionApplier.applyTransaction:96 android.view.SyncRtSurfaceTransactionApplier.lambda$scheduleApply$0$android-view-SyncRtSurfaceTransactionApplier:69 android.view.SyncRtSurfaceTransactionApplier$$ExternalSyntheticLambda0.onFrameDraw:4
+09-23 23:05:47.745  1602  1686 I ViewRootImpl@2257941[dogglers]: mWNT: t=0xb400007d7e3f1130 mBlastBufferQueue=0xb400007dbe37dc50 fn= 2 caller= android.view.SyncRtSurfaceTransactionApplier.applyTransaction:96 android.view.SyncRtSurfaceTransactionApplier.lambda$scheduleApply$0$android-view-SyncRtSurfaceTransactionApplier:69 android.view.SyncRtSurfaceTransactionApplier$$ExternalSyntheticLambda0.onFrameDraw:4
+09-23 23:05:47.745 20719 20719 I [WEATHER]FreeStatusCheckService: {[59D59D6A529801523F831777F8F19C604081A727E9C0D6D3E5D7AA165B283248ACCADF3F2BF388AE221F1DDBBFAE6875D49C09B705F63DC251CA8EBD736AD3C9DE7E3426C830077406932D4994722CCD]}
+09-23 23:05:47.747  4177  4954 I SemDvfsHyPerManager: acquire hyper - BaseTABoost/4177@21, type = 1090523139
+09-23 23:05:47.747 20383 20383 D RootViewPicker: Root not ready - waiting: 25ms for one to appear.
+09-23 23:05:47.748  1186  4154 D InputDispatcher: Focus entered window (0): 4b2970c com.example.dogglers/com.example.dogglers.MainActivity
+09-23 23:05:47.748   795   875 I HYPER-HAL: [RequestManager.cpp]acquire(): Acquired ID : 8813722  [4177 / 21]    HINT :      list : [TABoost / 1]
+09-23 23:05:47.749  2080 15073 I RecentModel: onTaskStackChangedBackground
+09-23 23:05:47.750 20383 20383 I ViewRootImpl@d86bea0[MainActivity]: MSG_WINDOW_FOCUS_CHANGED 1 0
+09-23 23:05:47.751 20383 20383 I ViewRootImpl@d86bea0[MainActivity]: mThreadedRenderer.initializeIfNeeded()#2 mSurface={isValid=true 0xb400007e4e271080}
+09-23 23:05:47.751   871   871 D SurfaceFlinger: Display 4633128672291735932 HWC layers:
+09-23 23:05:47.751   871   871 D SurfaceFlinger:      DEVICE | 0xb400007cb2d28990 | 0100 | RGBx_8888    |  530.0    0.0 1610.0 2400.0 |    0    0 1080 2400 | Wallpaper BBQ wrapper#11204
+09-23 23:05:47.751   871   871 D SurfaceFlinger:      DEVICE | 0xb400007cb2d2b8d0 | 0100 | RGBA_8888    |    0.0    0.0 1080.0 2400.0 |    0    0 1080 2400 | com.sec.android.app.launcher/com.sec[...]ivities.LauncherActivity$_2080#38790
+09-23 23:05:47.751   871   871 D SurfaceFlinger:      DEVICE | 0xb400007cb2d35f10 | 0102 | RGBA_8888    |    0.0    0.0 1080.0 2400.0 |   42   93 1038 2307 | com.example.dogglers/com.example.dogglers.MainActivity$_20383#38809
+09-23 23:05:47.751   871   871 D SurfaceFlinger:      DEVICE | 0xb400007cb2d32c50 | 0100 | RGBA_8888    |    0.0    0.0 1080.0 2400.0 |   42   93 1038 2307 | Splash Screen com.example.dogglers$_1602#38802
+09-23 23:05:47.751   871   871 D SurfaceFlinger:      DEVICE | 0xb400007cb2d3cd50 | 0100 | RGBA_8888    |    0.0    0.0 1080.0   80.0 |    0    0 1080   80 | StatusBar$_1602#90
+09-23 23:05:47.751   871   871 D SurfaceFlinger:      DEVICE | 0xb400007cb2d30b10 | 0100 | RGBA_8888    |    0.0    0.0 1080.0  135.0 |    0 2265 1080 2400 | NavigationBar0$_1602#85
+09-23 23:05:47.751   871   871 D SurfaceFlinger:
+09-23 23:05:47.752 20383 20383 D InputMethodManager: startInputInner - Id : 0
+09-23 23:05:47.752 20383 20383 I InputMethodManager: startInputInner - mService.startInputOrWindowGainedFocus
+09-23 23:05:47.752  1186  4154 D InputMethodManagerService: mDesktopModeManager null!
+09-23 23:05:47.752  1186  4154 V InputMethodManagerService: getDisplayIdOfInputMethodWindowToBeAdded: displayId=0
+09-23 23:05:47.753  1186  4154 D InputMethodManagerService: isImeSwitcherDisabledPackage : false
+09-23 23:05:47.753  1186  4154 D InputMethodManagerService: checkDisplayOfStartInputAndUpdateKeyboard: displayId=0, mFocusedDisplayId=0
+09-23 23:05:47.753  1186  4154 D InputTransport: Input channel constructed: 'ClientS', fd=1014
+09-23 23:05:47.754  1186  4154 D InputTransport: Input channel destroyed: 'ClientS', fd=1014
+09-23 23:05:47.754  4639  4639 I HBD     : HoneyBoardService onFinishInput
+09-23 23:05:47.755  4639  4639 I HBD     : a IC have been unbinding,  RemoteInputConnection{idHash=#1223def}
+09-23 23:05:47.755  4639  4639 I HBD     : HoneyBoardService [PF_CL][onFinishInput]  0 ms
+09-23 23:05:47.755  4639  4639 I HBD     : HoneyBoardService [IMI] onStartInput - caller pid : 20383 , caller uid : 10512
+09-23 23:05:47.756  4639  4639 I HBD     : j updateConfigs
+09-23 23:05:47.756  4639  4639 I HBD     : j isEnabledNightMode : true
+09-23 23:05:47.757  4639  4639 I HBD     : a IC have been binding, RemoteInputConnection{idHash=#4d60fc}
+09-23 23:05:47.757  4639  4639 I HBD     : h [EditorInputType]setPrivateImeOptionsToTable privateImeOptions ( null )
+09-23 23:05:47.757  4639  4639 I HBD     : b incognitoMode : false
+09-23 23:05:47.757  4639  4639 I HBD     : a needOff = true , isForceOff = false, isNullInputClass : true
+09-23 23:05:47.757  4639  4639 I HBD     : h getDefaultInputRange : UNKNOWN
+09-23 23:05:47.757  4639  4639 I HBD     : h getDefaultInputRange : UNKNOWN
+09-23 23:05:47.758  4639  4639 I HBD     : h getDefaultInputRange : UNKNOWN
+09-23 23:05:47.759  1602  1685 I ViewRootImpl@2257941[dogglers]: mWNT: t=0xb400007d7e392930 mBlastBufferQueue=0xb400007dbe37dc50 fn= 3 caller= android.view.SyncRtSurfaceTransactionApplier.applyTransaction:96 android.view.SyncRtSurfaceTransactionApplier.lambda$scheduleApply$0$android-view-SyncRtSurfaceTransactionApplier:69 android.view.SyncRtSurfaceTransactionApplier$$ExternalSyntheticLambda0.onFrameDraw:4
+09-23 23:05:47.759   871   917 I SurfaceFlinger: id=38813 createSurf flag=24004, Surface(name=e96d1f9 InputMethod)/@0x341a74a - animation-leash of insets_animation#38813
+09-23 23:05:47.759  4639  4639 I HBD     : a needOff = true , isForceOff = false, isNullInputClass : true
+09-23 23:05:47.759  4639  4639 I HBD     : a update cached prediction status : false
+09-23 23:05:47.760  4639  4639 I HBD     : h getDefaultInputRange : UNKNOWN
+09-23 23:05:47.760  4639  4639 I HBD     : a currentState : 0
+09-23 23:05:47.760  4639  4639 I HBD     : a [UpdatePolicy] [post] a: 0 cl: 65538 kit: [0/0] vt: 0 ir: 1
+09-23 23:05:47.763  2080  2330 I RecentTasksList: loadTasksInBackground : groupTask = GroupTask{task1=[id=7706 windowingMode=1 user=0 lastActiveTime=201178846] null, task2=null, task3=null, mStagedSplitBounds=null}
+09-23 23:05:47.763  4639  4639 I HBD     : a [NRIC] resetNoResponseState
+09-23 23:05:47.763  4639  4639 I HBD     : a needOff = true , isForceOff = false, isNullInputClass : true
+09-23 23:05:47.763  4639  4639 I HBD     : a update cached prediction status : false
+09-23 23:05:47.764  1186  1771 D InputMethodManagerService: isImeSwitcherDisabledPackage : false
+09-23 23:05:47.765  4639  4639 I HBD     : HoneyBoardService [PF_OP][onStartInput]  9 ms
+09-23 23:05:47.765  4639  4639 I InputMethodService: removeImeSurface
+09-23 23:05:47.765  4639  4639 I MSHandlerLifeCycle: check: return. pkg=com.samsung.android.honeyboard isActivity=false callers=com.android.internal.policy.DecorView.setVisibility:4416 android.app.Dialog.hide:767 android.inputmethodservice.InputMethodService.removeImeSurface:1290 android.inputmethodservice.InputMethodService.scheduleImeSurfaceRemoval:1279 android.inputmethodservice.InputMethodService.-$$Nest$mscheduleImeSurfaceRemoval:0
+09-23 23:05:47.765  4639  4639 I MSHandlerLifeCycle: removeMultiSplitHandler: no exist. decor=DecorView@88a07b[InputMethod]
+09-23 23:05:47.766 20719 20830 I [WEATHER]NewsRemoteDataSourceImpl: {[D6C2B3257403C8F62441DC3D0EAE68FE98F90553A8A9DB943765E70DE724CE5A]}
+09-23 23:05:47.766   871   871 I Layer   : id=38797 removeFromCurrentState Surface(name=e96d1f9 InputMethod)/@0x341a74a - animation-leash of insets_animation#38797 (138)
+09-23 23:05:47.767   871   871 I SurfaceFlinger: id=38797 Removed Surface(name=e96d1f9 InputMethod)/@0x341a74a - animation-leash of insets_animation#38797 (138)
+09-23 23:05:47.767  1602  1686 I ViewRootImpl@2257941[dogglers]: mWNT: t=0xb400007d7e2f0ed0 mBlastBufferQueue=0xb400007dbe37dc50 fn= 4 caller= android.view.SyncRtSurfaceTransactionApplier.applyTransaction:96 android.view.SyncRtSurfaceTransactionApplier.lambda$scheduleApply$0$android-view-SyncRtSurfaceTransactionApplier:69 android.view.SyncRtSurfaceTransactionApplier$$ExternalSyntheticLambda0.onFrameDraw:4
+09-23 23:05:47.767   871   871 I Layer   : id=38797 Destroyed Surface(name=e96d1f9 InputMethod)/@0x341a74a - animation-leash of insets_animation#38797
+09-23 23:05:47.774 20383 20383 I ViewInteraction: Checking 'MatchesViewAssertion{viewMatcher=(view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() to return non-empty rectangle)}' assertion on view view.getId() is <2131231204/com.example.dogglers:id/vertical_btn>
+09-23 23:05:47.779  1602  1685 I ViewRootImpl@2257941[dogglers]: mWNT: t=0xb400007d7e3fb9f0 mBlastBufferQueue=0xb400007dbe37dc50 fn= 5 caller= android.view.SyncRtSurfaceTransactionApplier.applyTransaction:96 android.view.SyncRtSurfaceTransactionApplier.lambda$scheduleApply$0$android-view-SyncRtSurfaceTransactionApplier:69 android.view.SyncRtSurfaceTransactionApplier$$ExternalSyntheticLambda0.onFrameDraw:4
+09-23 23:05:47.779  1186  1232 I ChimeraSystemEventListener: appLaunchIntent package name is: com.example.dogglers
+09-23 23:05:47.784  1186  1771 I SemDvfsHyPerManager: acquire hyper - AMS_ACT_START/1186@16, type = -999
+09-23 23:05:47.784   795   875 I HYPER-HAL: [RequestManager.cpp]acquire(): Acquired ID : 723019  [1186 / 16]    HINT : AMS_ACT_START    list :
+09-23 23:05:47.786   871  2164 I SurfaceFlinger: id=38814 createSurf flag=80004, ActivityRecord{8293d07 u0 com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity} t7706}#38814
+09-23 23:05:47.788  1186  1232 D PersonaActivityHelper: Activity not in resumed state, do not run immediate lock
+09-23 23:05:47.790  1602  1686 I ViewRootImpl@2257941[dogglers]: mWNT: t=0xb400007d7e25a750 mBlastBufferQueue=0xb400007dbe37dc50 fn= 6 caller= android.view.SyncRtSurfaceTransactionApplier.applyTransaction:96 android.view.SyncRtSurfaceTransactionApplier.lambda$scheduleApply$0$android-view-SyncRtSurfaceTransactionApplier:69 android.view.SyncRtSurfaceTransactionApplier$$ExternalSyntheticLambda0.onFrameDraw:4
+09-23 23:05:47.790   871  2164 I SurfaceFlinger: id=38815 createSurf flag=80000, bd12746 ActivityRecordInputSink com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity#38815
+09-23 23:05:47.793  2633  2633 E pageboostd: Received HALT command code 2
+09-23 23:05:47.794 20383 20383 D LifecycleMonitor: Lifecycle status change: com.example.dogglers.MainActivity@1028ce5 in: PAUSED
+09-23 23:05:47.795 20383 20383 V ActivityScenario: Update currentActivityStage to PAUSED, currentActivity=com.example.dogglers.MainActivity@1028ce5
+09-23 23:05:47.798  1186  4963 D InputDispatcher: Focused application(0): ActivityRecord{8293d07 u0 com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity} t7706}
+09-23 23:05:47.801  1602  1661 D OpenGLRenderer: setSurface called with nullptr
+09-23 23:05:47.801  1602  1661 D OpenGLRenderer: setSurface() destroyed EGLSurface
+09-23 23:05:47.801  1602  1661 D OpenGLRenderer: destroyEglSurface
+09-23 23:05:47.802   966  2142 I CameraService: onUidStateChanged: uid=10051, procState is changed. (1 -> 0)
+09-23 23:05:47.803  1602  1659 I ViewRootImpl@2257941[dogglers]: performTraversals params={(0,0)(fillxfill) sim={adjust=pan} ty=APPLICATION_STARTING fmt=TRANSLUCENT wanim=0x1030001 alpha=0.0
+09-23 23:05:47.803  1602  1659 I ViewRootImpl@2257941[dogglers]:   fl=81030118
+09-23 23:05:47.803  1602  1659 I ViewRootImpl@2257941[dogglers]:   pfl=16000010
+09-23 23:05:47.803  1602  1659 I ViewRootImpl@2257941[dogglers]:   bhv=DEFAULT
+09-23 23:05:47.803  1602  1659 I ViewRootImpl@2257941[dogglers]:   fitSides= naviIconColor=0}
+09-23 23:05:47.804  1602  1659 I ViewRootImpl@2257941[dogglers]: performTraversals mFirst=false windowShouldResize=false viewVisibilityChanged=true mForceNextWindowRelayout=false params={(0,0)(fillxfill) sim={adjust=pan} ty=APPLICATION_STARTING fmt=TRANSLUCENT wanim=0x1030001 alpha=0.0
+09-23 23:05:47.804  1602  1659 I ViewRootImpl@2257941[dogglers]:   fl=81030118
+09-23 23:05:47.804  1602  1659 I ViewRootImpl@2257941[dogglers]:   pfl=16000010
+09-23 23:05:47.804  1602  1659 I ViewRootImpl@2257941[dogglers]:   bhv=DEFAULT
+09-23 23:05:47.804  1602  1659 I ViewRootImpl@2257941[dogglers]:   fitSides= naviIconColor=0}
+09-23 23:05:47.804  1186  1578 V WindowManager: Relayout Window{c4a7ffa u0 Splash Screen com.example.dogglers}: viewVisibility=8 req=1080x2400 d0
+09-23 23:05:47.806 20383 20383 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@6d1220b in: PRE_ON_CREATE
+09-23 23:05:47.807 20383 20383 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.MainActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity }, activity=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@6d1220b
+09-23 23:05:47.807  1186  1232 I SemPersonaManager: SecureFolder personaId = 150
+09-23 23:05:47.808  1186  1578 V WindowManager: Relayout hash=c4a7ffa, pid=1602, syncId=-1: mAttrs={(0,0)(fillxfill) sim={adjust=pan} ty=APPLICATION_STARTING fmt=TRANSLUCENT wanim=0x1030001 alpha=0.0
+09-23 23:05:47.808  1186  1578 V WindowManager:   fl=81030118
+09-23 23:05:47.808  1186  1578 V WindowManager:   pfl=16000010
+09-23 23:05:47.808  1186  1578 V WindowManager:   bhv=DEFAULT
+09-23 23:05:47.808  1186  1578 V WindowManager:   fitSides= naviIconColor=0}
+09-23 23:05:47.809 20383 20417 D OpenGLRenderer: setSurface called with nullptr
+09-23 23:05:47.810 20383 20401 D InputTransport: Input channel destroyed: 'ClientS', fd=112
+09-23 23:05:47.810 20383 20417 D OpenGLRenderer: setSurface called with nullptr
+09-23 23:05:47.811 20383 20401 D InputTransport: Input channel destroyed: 'ClientS', fd=88
+09-23 23:05:47.811   871   871 I SurfaceFlinger: [4b2970c com.example.dogglers/com.example.dogglers.MainActivity#38808] FrameRatePriority: -1
+09-23 23:05:47.811   871   871 D SurfaceFlinger: [input] inputWindowCommands.focusRequests size is 1
+09-23 23:05:47.811 20383 20417 D OpenGLRenderer: setSurface called with nullptr
+09-23 23:05:47.812 20383 20383 I DecorView: [INFO] isPopOver=false config=true
+09-23 23:05:47.812 20383 20383 I DecorView: updateCaptionType: isFloating=false isApplication=true hasWindowDecorCaption=false this=DecorView@d404da6[]
+09-23 23:05:47.812 20383 20383 D DecorView: setCaptionType = 0, this = DecorView@d404da6[]
+09-23 23:05:47.812   871   965 D SurfaceFlinger: [input] setFocusedWindow: <null>
+09-23 23:05:47.813  1602  1659 I ViewRootImpl@2257941[dogglers]: Relayout returned: old=(0,0,1080,2400) new=(0,0,1080,2400) req=(1080,2400)8 dur=6 res=0x2 s={false 0x0} ch=true seqId=0
+09-23 23:05:47.813  1602  1659 I ViewRootImpl@2257941[dogglers]: dispatchDetachedFromWindow
+09-23 23:05:47.814 20383 20417 D OpenGLRenderer: setSurface called with nullptr
+09-23 23:05:47.816 20383 20417 D OpenGLRenderer: setSurface called with nullptr
+09-23 23:05:47.816 20383 20383 I DecorView: getCurrentDensityDpi: from real metrics. densityDpi=450 msg=resources_loaded
+09-23 23:05:47.816 20383 20417 D OpenGLRenderer: setSurface called with nullptr
+09-23 23:05:47.816  1186  2938 D InputDispatcher: Focus left window (0): 4b2970c com.example.dogglers/com.example.dogglers.MainActivity
+09-23 23:05:47.816 20383 20383 I DecorView: setWindowBackground: isPopOver=false color=ff010101 d=android.graphics.drawable.StateListDrawable@6dd3e7
+09-23 23:05:47.816 20383 20417 D OpenGLRenderer: setSurface called with nullptr
+09-23 23:05:47.817 20383 20383 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@6d1220b in: CREATED
+09-23 23:05:47.817 20383 20383 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.MainActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity }, activity=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@6d1220b
+09-23 23:05:47.818  1186  4963 D InputTransport: Input channel destroyed: 'c4a7ffa', fd=976
+09-23 23:05:47.818  1186  4963 W InputManager-JNI: Input channel object 'c4a7ffa Splash Screen com.example.dogglers (client)' was disposed without first being removed with the input manager!
+09-23 23:05:47.818  1186  4963 D InputTransport: Input channel destroyed: 'c4a7ffa', fd=978
+09-23 23:05:47.820   871   871 D SurfaceFlinger: Display 4633128672291735932 HWC layers:
+09-23 23:05:47.820   871   871 D SurfaceFlinger:      DEVICE | 0xb400007cb2d28990 | 0100 | RGBx_8888    |  530.0    0.0 1610.0 2400.0 |    0    0 1080 2400 | Wallpaper BBQ wrapper#11204
+09-23 23:05:47.820   871   871 D SurfaceFlinger:      DEVICE | 0xb400007cb2d2b8d0 | 0100 | RGBA_8888    |    0.0    0.0 1080.0 2400.0 |    0    0 1080 2400 | com.sec.android.app.launcher/com.sec[...]ivities.LauncherActivity$_2080#38790
+09-23 23:05:47.820   871   871 D SurfaceFlinger:      DEVICE | 0xb400007cb2d3a510 | 0102 | RGBA_8888    |    0.0    0.0 1080.0 2400.0 |   19   42 1061 2358 | com.example.dogglers/com.example.dogglers.MainActivity$_20383#38809
+09-23 23:05:47.820   871   871 D SurfaceFlinger:      DEVICE | 0xb400007cb2d3cd50 | 0100 | RGBA_8888    |    0.0    0.0 1080.0   80.0 |    0    0 1080   80 | StatusBar$_1602#90
+09-23 23:05:47.820   871   871 D SurfaceFlinger:      DEVICE | 0xb400007cb2d30b10 | 0100 | RGBA_8888    |    0.0    0.0 1080.0  135.0 |    0 2265 1080 2400 | NavigationBar0$_1602#85
+09-23 23:05:47.820   871   871 D SurfaceFlinger:
+09-23 23:05:47.820 20383 20383 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@6d1220b in: STARTED
+09-23 23:05:47.820 20383 20383 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.MainActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity }, activity=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@6d1220b
+09-23 23:05:47.821 20383 20383 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@6d1220b in: RESUMED
+09-23 23:05:47.821  1602  1659 D InputTransport: Input channel destroyed: 'c4a7ffa', fd=317
+09-23 23:05:47.822 20383 20383 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.MainActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity }, activity=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@6d1220b
+09-23 23:05:47.822   871   871 I Layer   : id=38812 removeFromCurrentState Surface(name=4b2970c com.example.dogglers/com.example.dogglers.MainActivity)/@0x133b4c2 - animation-leash of starting_reveal#38812 (139)
+09-23 23:05:47.822 20383 20383 I MSHandlerLifeCycle: check: return. pkg=com.example.dogglers parent=null callers=com.android.internal.policy.DecorView.setVisibility:4416 android.app.ActivityThread.handleResumeActivity:5476 android.app.servertransaction.ResumeActivityItem.execute:54 android.app.servertransaction.ActivityTransactionItem.execute:45 android.app.servertransaction.TransactionExecutor.executeLifecycleState:176
+09-23 23:05:47.822 20383 20383 I MSHandlerLifeCycle: removeMultiSplitHandler: no exist. decor=DecorView@d404da6[]
+09-23 23:05:47.823  1186  1186 D PocketProximityManager: setStateOut()
+09-23 23:05:47.825 20383 20417 D NativeCustomFrequencyManager: [NativeCFMS] BpCustomFrequencyManager::BpCustomFrequencyManager()
+09-23 23:05:47.826  1186  4414 D InputTransport: Input channel constructed: '5c17a93', fd=978
+09-23 23:05:47.826  1186  4414 D InputTransport: Input channel constructed: '5c17a93', fd=1014
+09-23 23:05:47.826  1186  4414 D InputTransport: Input channel constructed: '5c17a93', fd=1016
+09-23 23:05:47.827   871  1063 I SurfaceFlinger: id=38816 createSurf flag=80004, 5c17a93 com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity#38816
+09-23 23:05:47.827  1186  1232 D EnterpriseDeviceManagerService: isMdmAdminPresentInternal() : MDM Admin Found - com.samsung.knox.securefolder
+09-23 23:05:47.828  1186  4414 D InputTransport: Input channel destroyed: '5c17a93', fd=1016
+09-23 23:05:47.829 20383 20383 D InsetsController: onStateChanged: InsetsState: {mDisplayFrame=Rect(0, 0 - 1080, 2400), mDisplayCutout=DisplayCutout{insets=Rect(0, 80 - 0, 0) waterfall=Insets{left=0, top=0, right=0, bottom=0} boundingRect={Bounds=[Rect(0, 0 - 0, 0), Rect(468, 0 - 612, 80), Rect(0, 0 - 0, 0), Rect(0, 0 - 0, 0)]} cutoutPathParserInfo={CutoutPathParserInfo{displayWidth=1080 displayHeight=2400 physicalDisplayWidth=1080 physicalDisplayHeight=2400 density={2.8125} cutoutSpec={M 0,0 H -25.6 V 28.44444444444444 H 25.6 V 0 H 0 Z @dp} rotation={0} scale={1.0} physicalPixelDisplaySizeRatio={1.0}}}}, mRoundedCorners=RoundedCorners{[RoundedCorner{position=TopLeft, radius=90, center=Point(90, 90)}, RoundedCorner{position=TopRight, radius=90, center=Point(990, 90)}, RoundedCorner{position=BottomRight, radius=90, center=Point(990, 2310)}, RoundedCorner{position=BottomLeft, radius=90, center=Point(90, 2310)}]}  mRoundedCornerFrame=Rect(0, 0 - 1080, 2400), mPrivacyIndicatorBounds=PrivacyIndicatorBounds {static bounds=Rect(956, 0 - 1080, 80) rotation=0}, mSources= { InsetsSource: {mType=ITYPE_STATUS_BAR, mFrame=[0,0][1080,80], mVisible=true, mInsetsRoundedCornerFrame=false}, InsetsSource: {mType=ITYPE_NAVIGATION_BAR, mFrame=[0,2400][1080,2400], mVisible=true, mInsetsRoundedCornerFrame=false}, InsetsSource: {mType=ITYPE_LEFT_GESTURES, mFrame=[0,0][67,2400], mVisible=true, mInsetsRoundedCornerFrame=false}, InsetsSource: {mType=ITYPE_RIGHT_GESTURES, mFrame=[1013,0][1080,2400], mVisible=true, mInsetsRoundedCornerFrame=false}, InsetsSource: {mType=ITYPE_TOP_MANDATORY_GESTURES, mFrame=[0,0][1080,114], mVisible=true, mInsetsRoundedCornerFrame=false}, InsetsSource: {mType=ITYPE_BOTTOM_MANDATORY_GESTURES, mFrame=[0,2344][1080,2400], mVisible=true, mInsetsRoundedCornerFrame=false}, InsetsSource: {mType=ITYPE_LEFT_DISPLAY_CUTOUT, mFrame=[0,0][-100000,2400], mVisible=true, mInsetsRoundedCornerFrame=false}, InsetsSource: {mType=ITYPE_TOP_DISPLAY_CUTOUT, mFrame=[0,0][1080,80], mVisible=true, mInsetsRoundedCornerFrame=false}, InsetsSource: {mType=ITYPE_RIGHT_DISPLAY_CUTOUT, mFrame=[100000,0][1080,2400], mVisible=true, mInsetsRoundedCornerFrame=false}, InsetsSource: {mType=ITYPE_BOTTOM_DISPLAY_CUTOUT, mFrame=[0,100000][1080,2400], mVisible=true, mInsetsRoundedCornerFrame=false}, InsetsSource: {mType=ITYPE_TOP_TAPPABLE_ELEMENT, mFrame=[0,0][1080,80], mVisible=true, mInsetsRoundedCornerFrame=false}, InsetsSource: {mType=ITYPE_BOTTOM_TAPPABLE_ELEMENT, mFrame=[0,0][0,0], mVisible=true, mInsetsRoundedCornerFrame=false} } host=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity from=android.view.ViewRootImpl.setView:1732
+09-23 23:05:47.830 20383 20383 I ViewRootImpl@fdcb94[InstrumentationActivityInvoker$EmptyActivity]: setView = com.android.internal.policy.DecorView@d404da6 TM=true
+09-23 23:05:47.831 20383 20383 I MSHandlerLifeCycle: removeMultiSplitHandler: no exist. decor=DecorView@d404da6[InstrumentationActivityInvoker$EmptyActivity]
+09-23 23:05:47.831  1186  1277 D AnalyticsContainerHandler: handleMessage : { when=0 what=1 target=com.android.server.knox.KnoxAnalyticsContainer$AnalyticsHandler }
+09-23 23:05:47.832  1186  2620 I MediaSessionMonitor: Media session stopped : controllerList empty
+09-23 23:05:47.835 20383 20383 I ViewRootImpl@fdcb94[InstrumentationActivityInvoker$EmptyActivity]: performTraversals params={(0,0)(fillxfill) sim={adjust=pan forwardNavigation} ty=BASE_APPLICATION wanim=0x1030001
+09-23 23:05:47.835 20383 20383 I ViewRootImpl@fdcb94[InstrumentationActivityInvoker$EmptyActivity]:   fl=1810100
+09-23 23:05:47.835 20383 20383 I ViewRootImpl@fdcb94[InstrumentationActivityInvoker$EmptyActivity]:   pfl=12020040
+09-23 23:05:47.835 20383 20383 I ViewRootImpl@fdcb94[InstrumentationActivityInvoker$EmptyActivity]:   bhv=DEFAULT
+09-23 23:05:47.835 20383 20383 I ViewRootImpl@fdcb94[InstrumentationActivityInvoker$EmptyActivity]:   fitSides= naviIconColor=0}
+09-23 23:05:47.836 20383 20383 I ViewRootImpl@fdcb94[InstrumentationActivityInvoker$EmptyActivity]: performTraversals mFirst=true windowShouldResize=true viewVisibilityChanged=false mForceNextWindowRelayout=false params={(0,0)(fillxfill) sim={adjust=pan forwardNavigation} ty=BASE_APPLICATION wanim=0x1030001
+09-23 23:05:47.836 20383 20383 I ViewRootImpl@fdcb94[InstrumentationActivityInvoker$EmptyActivity]:   fl=1810100
+09-23 23:05:47.836 20383 20383 I ViewRootImpl@fdcb94[InstrumentationActivityInvoker$EmptyActivity]:   pfl=12020040
+09-23 23:05:47.836 20383 20383 I ViewRootImpl@fdcb94[InstrumentationActivityInvoker$EmptyActivity]:   bhv=DEFAULT
+09-23 23:05:47.836 20383 20383 I ViewRootImpl@fdcb94[InstrumentationActivityInvoker$EmptyActivity]:   fitSides= naviIconColor=0}
+09-23 23:05:47.836  1186  4154 V WindowManager: Relayout Window{5c17a93 u0 com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity}: viewVisibility=0 req=1080x2400 d0
+09-23 23:05:47.836   871  2164 I SurfaceFlinger: id=38817 createSurf flag=40004, com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity$_20383#38817
+09-23 23:05:47.840   871  2164 I SurfaceFlinger: id=38818 createSurf flag=24000, Surface(name=1bd1a64 StatusBar)/@0x43c3355 - animation-leash of insets_animation#38818
+09-23 23:05:47.840   871  2164 I SurfaceFlinger: id=38819 createSurf flag=24000, Surface(name=dd7eda7 NavigationBar0)/@0x5d9afd1 - animation-leash of insets_animation#38819
+09-23 23:05:47.842  1186  4154 V WindowManager: Relayout hash=5c17a93, pid=20383, syncId=-1: mAttrs={(0,0)(fillxfill) sim={adjust=pan forwardNavigation} ty=BASE_APPLICATION wanim=0x1030001
+09-23 23:05:47.842  1186  4154 V WindowManager:   fl=1810100
+09-23 23:05:47.842  1186  4154 V WindowManager:   pfl=12020040
+09-23 23:05:47.842  1186  4154 V WindowManager:   bhv=DEFAULT
+09-23 23:05:47.842  1186  4154 V WindowManager:   fitSides= naviIconColor=0}
+09-23 23:05:47.843 20383 20383 D InsetsController: onStateChanged: InsetsState: {mDisplayFrame=Rect(0, 0 - 1080, 2400), mDisplayCutout=DisplayCutout{insets=Rect(0, 80 - 0, 0) waterfall=Insets{left=0, top=0, right=0, bottom=0} boundingRect={Bounds=[Rect(0, 0 - 0, 0), Rect(468, 0 - 612, 80), Rect(0, 0 - 0, 0), Rect(0, 0 - 0, 0)]} cutoutPathParserInfo={CutoutPathParserInfo{displayWidth=1080 displayHeight=2400 physicalDisplayWidth=1080 physicalDisplayHeight=2400 density={2.8125} cutoutSpec={M 0,0 H -25.6 V 28.44444444444444 H 25.6 V 0 H 0 Z @dp} rotation={0} scale={1.0} physicalPixelDisplaySizeRatio={1.0}}}}, mRoundedCorners=RoundedCorners{[RoundedCorner{position=TopLeft, radius=90, center=Point(90, 90)}, RoundedCorner{position=TopRight, radius=90, center=Point(990, 90)}, RoundedCorner{position=BottomRight, radius=90, center=Point(990, 2310)}, RoundedCorner{position=BottomLeft, radius=90, center=Point(90, 2310)}]}  mRoundedCornerFrame=Rect(0, 0 - 1080, 2400), mPrivacyIndicatorBounds=PrivacyIndicatorBounds {static bounds=Rect(956, 0 - 1080, 80) rotation=0}, mSources= { InsetsSource: {mType=ITYPE_STATUS_BAR, mFrame=[0,0][1080,80], mVisible=true, mInsetsRoundedCornerFrame=false}, InsetsSource: {mType=ITYPE_NAVIGATION_BAR, mFrame=[0,2400][1080,2400], mVisible=true, mInsetsRoundedCornerFrame=false}, InsetsSource: {mType=ITYPE_LEFT_GESTURES, mFrame=[0,0][67,2400], mVisible=true, mInsetsRoundedCornerFrame=false}, InsetsSource: {mType=ITYPE_RIGHT_GESTURES, mFrame=[1013,0][1080,2400], mVisible=true, mInsetsRoundedCornerFrame=false}, InsetsSource: {mType=ITYPE_TOP_MANDATORY_GESTURES, mFrame=[0,0][1080,114], mVisible=true, mInsetsRoundedCornerFrame=false}, InsetsSource: {mType=ITYPE_BOTTOM_MANDATORY_GESTURES, mFrame=[0,2344][1080,2400], mVisible=true, mInsetsRoundedCornerFrame=false}, InsetsSource: {mType=ITYPE_LEFT_DISPLAY_CUTOUT, mFrame=[0,0][-100000,2400], mVisible=true, mInsetsRoundedCornerFrame=false}, InsetsSource: {mType=ITYPE_TOP_DISPLAY_CUTOUT, mFrame=[0,0][1080,80], mVisible=true, mInsetsRoundedCornerFrame=false}, InsetsSource: {mType=ITYPE_RIGHT_DISPLAY_CUTOUT, mFrame=[100000,0][1080,2400], mVisible=true, mInsetsRoundedCornerFrame=false}, InsetsSource: {mType=ITYPE_BOTTOM_DISPLAY_CUTOUT, mFrame=[0,100000][1080,2400], mVisible=true, mInsetsRoundedCornerFrame=false}, InsetsSource: {mType=ITYPE_TOP_TAPPABLE_ELEMENT, mFrame=[0,0][1080,80], mVisible=true, mInsetsRoundedCornerFrame=false}, InsetsSource: {mType=ITYPE_BOTTOM_TAPPABLE_ELEMENT, mFrame=[0,0][0,0], mVisible=true, mInsetsRoundedCornerFrame=false}, InsetsSource: {mType=ITYPE_IME, mFrame=[0,0][0,0], mVisibleFrame=[0,1392][1080,2400], mVisible=false, mInsetsRoundedCornerFrame=false} } host=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity from=android.view.ViewRootImpl.relayoutWindow:9802
+09-23 23:05:47.844 20383 20383 I ViewRootImpl@fdcb94[InstrumentationActivityInvoker$EmptyActivity]: updateBlastSurfaceIfNeeded mBlastBufferQueue=null isSameSurfaceControl=false
+09-23 23:05:47.845 20383 20383 I BLASTBufferQueue: new BLASTBufferQueue, mName= ViewRootImpl@fdcb94[InstrumentationActivityInvoker$EmptyActivity] mNativeObject= 0xb400007dbe2460d0 sc.mNativeObject= 0xb400007d4e262230 caller= android.view.ViewRootImpl.updateBlastSurfaceIfNeeded:2909 android.view.ViewRootImpl.relayoutWindow:9847 android.view.ViewRootImpl.performTraversals:3884 android.view.ViewRootImpl.doTraversal:3116 android.view.ViewRootImpl$TraversalRunnable.run:10885 android.view.Choreographer$CallbackRecord.run:1301 android.view.Choreographer$CallbackRecord.run:1309 android.view.Choreographer.doCallbacks:923 android.view.Choreographer.doFrame:852 android.view.Choreographer$FrameDisplayEventReceiver.run:1283
+09-23 23:05:47.845 20383 20383 I BLASTBufferQueue: update, w= 1080 h= 2400 mName = ViewRootImpl@fdcb94[InstrumentationActivityInvoker$EmptyActivity] mNativeObject= 0xb400007dbe2460d0 sc.mNativeObject= 0xb400007d4e262230 format= -1 caller= android.graphics.BLASTBufferQueue.<init>:84 android.view.ViewRootImpl.updateBlastSurfaceIfNeeded:2909 android.view.ViewRootImpl.relayoutWindow:9847 android.view.ViewRootImpl.performTraversals:3884 android.view.ViewRootImpl.doTraversal:3116 android.view.ViewRootImpl$TraversalRunnable.run:10885
+09-23 23:05:47.845 20383 20383 I ViewRootImpl@fdcb94[InstrumentationActivityInvoker$EmptyActivity]: Relayout returned: old=(0,0,1080,2400) new=(0,0,1080,2400) req=(1080,2400)0 dur=8 res=0x3 s={true 0xb400007e4e2997b0} ch=true seqId=0
+09-23 23:05:47.846 20383 20417 D OpenGLRenderer: eglCreateWindowSurface
+09-23 23:05:47.847 20383 20383 I ViewRootImpl@fdcb94[InstrumentationActivityInvoker$EmptyActivity]: mThreadedRenderer.initialize() mSurface={isValid=true 0xb400007e4e2997b0} hwInitialized=true
+09-23 23:05:47.848 20383 20383 I ViewRootImpl@fdcb94[InstrumentationActivityInvoker$EmptyActivity]: reportNextDraw android.view.ViewRootImpl.performTraversals:4438 android.view.ViewRootImpl.doTraversal:3116 android.view.ViewRootImpl$TraversalRunnable.run:10885 android.view.Choreographer$CallbackRecord.run:1301 android.view.Choreographer$CallbackRecord.run:1309
+09-23 23:05:47.848 20383 20383 I ViewRootImpl@fdcb94[InstrumentationActivityInvoker$EmptyActivity]: Setup new sync id=0
+09-23 23:05:47.848 20383 20383 I ViewRootImpl@fdcb94[InstrumentationActivityInvoker$EmptyActivity]: Setting syncFrameCallback
+09-23 23:05:47.848 20383 20383 I ViewRootImpl@fdcb94[InstrumentationActivityInvoker$EmptyActivity]: registerCallbacksForSync syncBuffer=false
+09-23 23:05:47.850 20383 20438 I ViewRootImpl@fdcb94[InstrumentationActivityInvoker$EmptyActivity]: Received frameDrawingCallback syncResult=0 frameNum=1.
+09-23 23:05:47.850 20383 20438 I ViewRootImpl@fdcb94[InstrumentationActivityInvoker$EmptyActivity]: Setting up sync and frameCommitCallback
+09-23 23:05:47.852 20383 20417 I BLASTBufferQueue: [ViewRootImpl@fdcb94[InstrumentationActivityInvoker$EmptyActivity]#17](f:0,a:0) onFrameAvailable the first frame is available
+09-23 23:05:47.852 20383 20417 I ViewRootImpl@fdcb94[InstrumentationActivityInvoker$EmptyActivity]: Received frameCommittedCallback lastAttemptedDrawFrameNum=1 didProduceBuffer=true
+09-23 23:05:47.853 20383 20417 D OpenGLRenderer: CFMS:: SetUp Pid : 20383    Tid : 20417
+09-23 23:05:47.853 20383 20417 W Parcel  : Expecting binder but got null!
+09-23 23:05:47.853 20383 20383 I ViewRootImpl@fdcb94[InstrumentationActivityInvoker$EmptyActivity]: onSyncComplete
+09-23 23:05:47.854 20383 20383 I ViewRootImpl@fdcb94[InstrumentationActivityInvoker$EmptyActivity]: setupSync seqId=0 mSyncId=0 fn=1 caller=android.view.ViewRootImpl$$ExternalSyntheticLambda11.accept:6 android.window.SurfaceSyncer.lambda$setupSync$1$android-window-SurfaceSyncer:128 android.window.SurfaceSyncer$$ExternalSyntheticLambda1.accept:8 android.window.SurfaceSyncer$SyncSet.checkIfSyncIsComplete:382 android.window.SurfaceSyncer$SyncSet.markSyncReady:359 android.window.SurfaceSyncer.markSyncReady:151 android.view.ViewRootImpl.performTraversals:4503
+09-23 23:05:47.854 20383 20383 I ViewRootImpl@fdcb94[InstrumentationActivityInvoker$EmptyActivity]: reportDrawFinished seqId=0 mSyncId=-1 fn=1 mSurfaceChangedTransaction=0xb400007d7e23da10
+09-23 23:05:47.855 20383 20383 I ViewRootImpl@d86bea0[MainActivity]: MSG_WINDOW_FOCUS_CHANGED 0 0
+09-23 23:05:47.855   871   871 I Layer   : id=38810 removeFromCurrentState Surface(name=1bd1a64 StatusBar)/@0x43c3355 - animation-leash of insets_animation#38810 (143)
+09-23 23:05:47.856   871   871 I Layer   : id=38811 removeFromCurrentState Surface(name=dd7eda7 NavigationBar0)/@0x5d9afd1 - animation-leash of insets_animation#38811 (143)
+09-23 23:05:47.856   871   871 I SurfaceFlinger: [5c17a93 com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity#38816] FrameRatePriority: 1
+09-23 23:05:47.856   871   871 D SurfaceFlinger: [input] inputWindowCommands.focusRequests size is 1
+09-23 23:05:47.859   871   965 D SurfaceFlinger: [input] setFocusedWindow: 5c17a93 com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity
+09-23 23:05:47.860   871   917 I SurfaceFlinger: id=38811 Removed Surface(name=dd7eda7 NavigationBar0)/@0x5d9afd1 - animation-leash of insets_animation#38811 (143)
+09-23 23:05:47.860   871   916 I SurfaceFlinger: id=38810 Removed Surface(name=1bd1a64 StatusBar)/@0x43c3355 - animation-leash of insets_animation#38810 (143)
+09-23 23:05:47.860  1186  2938 D InputDispatcher: Focus request (0): 5c17a93 com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity but waiting because NO_WINDOW
+09-23 23:05:47.861  1186  1229 I ActivityTaskManager: Displayed com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity: +77ms
+09-23 23:05:47.862  2633  2633 E pageboostd: Received HALT command code 2
+09-23 23:05:47.865  1186  2938 I SemDvfsHyPerManager: acquire hyper - AMS_RESUME_TAIL/1186@18, type = -999
+09-23 23:05:47.865  1186  2938 I SemDvfsHyPerManager: acquire hyper - AMS_ACT_LAZY/1186@19, type = -999
+09-23 23:05:47.865   795   875 I HYPER-HAL: [RequestManager.cpp]acquire(): Acquired ID : 725428  [1186 / 18]    HINT : AMS_RESUME_TAIL    list :
+09-23 23:05:47.865   795   875 I HYPER-HAL: [RequestManager.cpp]releaseLocked(): Released ID : 723019
+09-23 23:05:47.867   871   871 I Layer   : Layer [com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity$_20383#38817] hidden!! flag(0)
+09-23 23:05:47.867   871   871 I Layer   : id=38810 Destroyed Surface(name=1bd1a64 StatusBar)/@0x43c3355 - animation-leash of insets_animation#38810
+09-23 23:05:47.867   871   871 I Layer   : id=38811 Destroyed Surface(name=dd7eda7 NavigationBar0)/@0x5d9afd1 - animation-leash of insets_animation#38811
+09-23 23:05:47.869  1186  2288 D InputDispatcher: Focus entered window (0): 5c17a93 com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity
+09-23 23:05:47.870 20383 20383 I ViewRootImpl@fdcb94[InstrumentationActivityInvoker$EmptyActivity]: MSG_WINDOW_FOCUS_CHANGED 1 0
+09-23 23:05:47.870 20383 20383 I ViewRootImpl@fdcb94[InstrumentationActivityInvoker$EmptyActivity]: mThreadedRenderer.initializeIfNeeded()#2 mSurface={isValid=true 0xb400007e4e2997b0}
+09-23 23:05:47.871 20383 20383 D InputMethodManager: startInputInner - Id : 0
+09-23 23:05:47.871 20383 20383 I InputMethodManager: startInputInner - mService.startInputOrWindowGainedFocus
+09-23 23:05:47.871  1186  4414 I SemDvfsHyPerManager: acquire hyper - AMS_ACT_START/1186@16, type = -999
+09-23 23:05:47.871   795   875 I HYPER-HAL: [RequestManager.cpp]acquire(): Acquired ID : 723019  [1186 / 16]    HINT : AMS_ACT_START    list :
+09-23 23:05:47.872   871  1063 I SurfaceFlinger: id=38820 createSurf flag=80004, ActivityRecord{4d7f694 u0 com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity} t7706}#38820
+09-23 23:05:47.873   871   871 D SurfaceFlinger: Display 4633128672291735932 HWC layers:
+09-23 23:05:47.873   871   871 D SurfaceFlinger:      DEVICE | 0xb400007cb2d28990 | 0100 | RGBx_8888    |  530.0    0.0 1610.0 2400.0 |    0    0 1080 2400 | Wallpaper BBQ wrapper#11204
+09-23 23:05:47.873   871   871 D SurfaceFlinger:      DEVICE | 0xb400007cb2d2b8d0 | 0100 | RGBA_8888    |    0.0    0.0 1080.0 2400.0 |    0    0 1080 2400 | com.sec.android.app.launcher/com.sec[...]ivities.LauncherActivity$_2080#38790
+09-23 23:05:47.873   871   871 D SurfaceFlinger:      DEVICE | 0xb400007cb2d3a890 | 0102 | RGBA_8888    |    0.0    0.0 1080.0 2400.0 |    8   19 1072 2381 | com.example.dogglers/androidx.test.c[...]tyInvoker$EmptyActivity$_20383#38817
+09-23 23:05:47.873   871   871 D SurfaceFlinger:      DEVICE | 0xb400007cb2d3cd50 | 0100 | RGBA_8888    |    0.0    0.0 1080.0   80.0 |    0    0 1080   80 | StatusBar$_1602#90
+09-23 23:05:47.873   871   871 D SurfaceFlinger:      DEVICE | 0xb400007cb2d30b10 | 0100 | RGBA_8888    |    0.0    0.0 1080.0  135.0 |    0 2265 1080 2400 | NavigationBar0$_1602#85
+09-23 23:05:47.873   871   871 D SurfaceFlinger:
+09-23 23:05:47.875   871  1063 I SurfaceFlinger: id=38821 createSurf flag=80000, df9cae7 ActivityRecordInputSink com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity#38821
+09-23 23:05:47.877  2633  2633 E pageboostd: Received HALT command code 2
+09-23 23:05:47.877  1186  1232 I ChimeraSystemEventListener: appLaunchIntent package name is: com.example.dogglers
+09-23 23:05:47.877  1186  2288 D InputMethodManagerService: mDesktopModeManager null!
+09-23 23:05:47.877  1186  2288 V InputMethodManagerService: getDisplayIdOfInputMethodWindowToBeAdded: displayId=0
+09-23 23:05:47.877  1186  2288 D InputMethodManagerService: isImeSwitcherDisabledPackage : false
+09-23 23:05:47.878  1186  2288 D InputMethodManagerService: checkDisplayOfStartInputAndUpdateKeyboard: displayId=0, mFocusedDisplayId=0
+09-23 23:05:47.878  1186  2288 D InputTransport: Input channel constructed: 'ClientS', fd=1016
+09-23 23:05:47.878  1186  2288 D InputTransport: Input channel destroyed: 'ClientS', fd=1016
+09-23 23:05:47.878  1186  1232 D PersonaActivityHelper: Activity not in resumed state, do not run immediate lock
+09-23 23:05:47.879  4639  4639 I HBD     : HoneyBoardService onFinishInput
+09-23 23:05:47.879  4639  4639 I HBD     : a IC have been unbinding,  RemoteInputConnection{idHash=#4d60fc}
+09-23 23:05:47.879  4639  4639 I HBD     : HoneyBoardService [PF_CL][onFinishInput]  0 ms
+09-23 23:05:47.879 20383 20383 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@6d1220b in: PAUSED
+09-23 23:05:47.880 20383 20383 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.MainActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity }, activity=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@6d1220b
+09-23 23:05:47.880   871  1064 I SurfaceFlinger: id=38822 createSurf flag=24004, Surface(name=e96d1f9 InputMethod)/@0x341a74a - animation-leash of insets_animation#38822
+09-23 23:05:47.880  4639  4639 I HBD     : HoneyBoardService [IMI] onStartInput - caller pid : 20383 , caller uid : 10512
+09-23 23:05:47.880  4639  4639 I HBD     : j updateConfigs
+09-23 23:05:47.880  4639  4639 I HBD     : j isEnabledNightMode : true
+09-23 23:05:47.881  4639  4639 I HBD     : a IC have been binding, RemoteInputConnection{idHash=#4d60fc}
+09-23 23:05:47.881  4639  4639 I HBD     : h [EditorInputType]setPrivateImeOptionsToTable privateImeOptions ( null )
+09-23 23:05:47.881  4639  4639 I HBD     : b incognitoMode : false
+09-23 23:05:47.881  4639  4639 I HBD     : a needOff = true , isForceOff = false, isNullInputClass : true
+09-23 23:05:47.881  4639  4639 I HBD     : h getDefaultInputRange : UNKNOWN
+09-23 23:05:47.881  4639  4639 I HBD     : h getDefaultInputRange : UNKNOWN
+09-23 23:05:47.881  4639  4639 I HBD     : h getDefaultInputRange : UNKNOWN
+09-23 23:05:47.884  4639  4639 I HBD     : a needOff = true , isForceOff = false, isNullInputClass : true
+09-23 23:05:47.884  4639  4639 I HBD     : a update cached prediction status : false
+09-23 23:05:47.884  4639  4639 I HBD     : h getDefaultInputRange : UNKNOWN
+09-23 23:05:47.884  4639  4639 I HBD     : a currentState : 0
+09-23 23:05:47.884  4639  4639 I HBD     : a [UpdatePolicy] [post] a: 0 cl: 65538 kit: [0/0] vt: 0 ir: 1
+09-23 23:05:47.885  4639  4639 I HBD     : a [NRIC] resetNoResponseState
+09-23 23:05:47.885  4639  4639 I HBD     : a needOff = true , isForceOff = false, isNullInputClass : true
+09-23 23:05:47.885  4639  4639 I HBD     : a update cached prediction status : false
+09-23 23:05:47.886  1186  2938 D InputDispatcher: Focused application(0): ActivityRecord{4d7f694 u0 com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity} t7706}
+09-23 23:05:47.886  4639  4639 I HBD     : HoneyBoardService [PF_OP][onStartInput]  6 ms
+09-23 23:05:47.889   871   871 I Layer   : id=38813 removeFromCurrentState Surface(name=e96d1f9 InputMethod)/@0x341a74a - animation-leash of insets_animation#38813 (144)
+09-23 23:05:47.889   871   871 I SurfaceFlinger: [5c17a93 com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity#38816] FrameRatePriority: -1
+09-23 23:05:47.889  1186  1232 I SemPersonaManager: SecureFolder personaId = 150
+09-23 23:05:47.890   871  1064 I SurfaceFlinger: id=38813 Removed Surface(name=e96d1f9 InputMethod)/@0x341a74a - animation-leash of insets_animation#38813 (144)
+09-23 23:05:47.891  1186  2938 D InputMethodManagerService: isImeSwitcherDisabledPackage : false
+09-23 23:05:47.892  4639  4639 I InputMethodService: removeImeSurface
+09-23 23:05:47.893  4639  4639 I MSHandlerLifeCycle: check: return. pkg=com.samsung.android.honeyboard isActivity=false callers=com.android.internal.policy.DecorView.setVisibility:4416 android.app.Dialog.hide:767 android.inputmethodservice.InputMethodService.removeImeSurface:1290 android.inputmethodservice.InputMethodService.scheduleImeSurfaceRemoval:1279 android.inputmethodservice.InputMethodService.-$$Nest$mscheduleImeSurfaceRemoval:0
+09-23 23:05:47.893  4639  4639 I MSHandlerLifeCycle: removeMultiSplitHandler: no exist. decor=DecorView@88a07b[InputMethod]
+09-23 23:05:47.894 20383 20383 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@99cc18a in: PRE_ON_CREATE
+09-23 23:05:47.894 20383 20383 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.MainActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity }, activity=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@99cc18a
+09-23 23:05:47.896  1186  1232 D EnterpriseDeviceManagerService: isMdmAdminPresentInternal() : MDM Admin Found - com.samsung.knox.securefolder
+09-23 23:05:47.898  1186  2620 I MediaSessionMonitor: Media session stopped : controllerList empty
+09-23 23:05:47.899 20383 20383 I DecorView: [INFO] isPopOver=false config=true
+09-23 23:05:47.899 20383 20383 I DecorView: updateCaptionType: isFloating=false isApplication=true hasWindowDecorCaption=false this=DecorView@15c5671[]
+09-23 23:05:47.899 20383 20383 D DecorView: setCaptionType = 0, this = DecorView@15c5671[]
+09-23 23:05:47.900   871   871 D SurfaceFlinger: [input] inputWindowCommands.focusRequests size is 1
+09-23 23:05:47.900   871   871 I Layer   : id=38813 Destroyed Surface(name=e96d1f9 InputMethod)/@0x341a74a - animation-leash of insets_animation#38813
+09-23 23:05:47.901 20383 20383 I DecorView: getCurrentDensityDpi: from real metrics. densityDpi=450 msg=resources_loaded
+09-23 23:05:47.901 20383 20383 I DecorView: setWindowBackground: isPopOver=false color=ff010101 d=android.graphics.drawable.StateListDrawable@30d6c56
+09-23 23:05:47.902 20383 20383 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@99cc18a in: CREATED
+09-23 23:05:47.902   871   965 D SurfaceFlinger: [input] setFocusedWindow: <null>
+09-23 23:05:47.902 20383 20383 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.MainActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity }, activity=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@99cc18a
+09-23 23:05:47.902  1186  4414 D InputDispatcher: Focus left window (0): 5c17a93 com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity
+09-23 23:05:47.903 20383 20383 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@99cc18a in: STARTED
+09-23 23:05:47.903 20383 20383 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.MainActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity }, activity=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@99cc18a
+09-23 23:05:47.905 20383 20383 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@99cc18a in: RESUMED
+09-23 23:05:47.905 20383 20383 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.MainActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity }, activity=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@99cc18a
+09-23 23:05:47.905 20383 20383 I MSHandlerLifeCycle: check: return. pkg=com.example.dogglers parent=null callers=com.android.internal.policy.DecorView.setVisibility:4416 android.app.ActivityThread.handleResumeActivity:5476 android.app.servertransaction.ResumeActivityItem.execute:54 android.app.servertransaction.ActivityTransactionItem.execute:45 android.app.servertransaction.TransactionExecutor.executeLifecycleState:176
+09-23 23:05:47.905 20383 20383 I MSHandlerLifeCycle: removeMultiSplitHandler: no exist. decor=DecorView@15c5671[]
+09-23 23:05:47.907 20383 20417 D NativeCustomFrequencyManager: [NativeCFMS] BpCustomFrequencyManager::BpCustomFrequencyManager()
+09-23 23:05:47.909  1186  4414 D InputTransport: Input channel constructed: '6a1432e', fd=1024
+09-23 23:05:47.909  1186  4414 D InputTransport: Input channel constructed: '6a1432e', fd=1025
+09-23 23:05:47.909  1186  4414 D InputTransport: Input channel constructed: '6a1432e', fd=1028
+09-23 23:05:47.910   871  1063 I SurfaceFlinger: id=38823 createSurf flag=80004, 6a1432e com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity#38823
+09-23 23:05:47.911  1186  4414 D InputTransport: Input channel destroyed: '6a1432e', fd=1028
+09-23 23:05:47.912 20383 20383 D InsetsController: onStateChanged: InsetsState: {mDisplayFrame=Rect(0, 0 - 1080, 2400), mDisplayCutout=DisplayCutout{insets=Rect(0, 80 - 0, 0) waterfall=Insets{left=0, top=0, right=0, bottom=0} boundingRect={Bounds=[Rect(0, 0 - 0, 0), Rect(468, 0 - 612, 80), Rect(0, 0 - 0, 0), Rect(0, 0 - 0, 0)]} cutoutPathParserInfo={CutoutPathParserInfo{displayWidth=1080 displayHeight=2400 physicalDisplayWidth=1080 physicalDisplayHeight=2400 density={2.8125} cutoutSpec={M 0,0 H -25.6 V 28.44444444444444 H 25.6 V 0 H 0 Z @dp} rotation={0} scale={1.0} physicalPixelDisplaySizeRatio={1.0}}}}, mRoundedCorners=RoundedCorners{[RoundedCorner{position=TopLeft, radius=90, center=Point(90, 90)}, RoundedCorner{position=TopRight, radius=90, center=Point(990, 90)}, RoundedCorner{position=BottomRight, radius=90, center=Point(990, 2310)}, RoundedCorner{position=BottomLeft, radius=90, center=Point(90, 2310)}]}  mRoundedCornerFrame=Rect(0, 0 - 1080, 2400), mPrivacyIndicatorBounds=PrivacyIndicatorBounds {static bounds=Rect(956, 0 - 1080, 80) rotation=0}, mSources= { InsetsSource: {mType=ITYPE_STATUS_BAR, mFrame=[0,0][1080,80], mVisible=true, mInsetsRoundedCornerFrame=false}, InsetsSource: {mType=ITYPE_NAVIGATION_BAR, mFrame=[0,2400][1080,2400], mVisible=true, mInsetsRoundedCornerFrame=false}, InsetsSource: {mType=ITYPE_LEFT_GESTURES, mFrame=[0,0][67,2400], mVisible=true, mInsetsRoundedCornerFrame=false}, InsetsSource: {mType=ITYPE_RIGHT_GESTURES, mFrame=[1013,0][1080,2400], mVisible=true, mInsetsRoundedCornerFrame=false}, InsetsSource: {mType=ITYPE_TOP_MANDATORY_GESTURES, mFrame=[0,0][1080,114], mVisible=true, mInsetsRoundedCornerFrame=false}, InsetsSource: {mType=ITYPE_BOTTOM_MANDATORY_GESTURES, mFrame=[0,2344][1080,2400], mVisible=true, mInsetsRoundedCornerFrame=false}, InsetsSource: {mType=ITYPE_LEFT_DISPLAY_CUTOUT, mFrame=[0,0][-100000,2400], mVisible=true, mInsetsRoundedCornerFrame=false}, InsetsSource: {mType=ITYPE_TOP_DISPLAY_CUTOUT, mFrame=[0,0][1080,80], mVisible=true, mInsetsRoundedCornerFrame=false}, InsetsSource: {mType=ITYPE_RIGHT_DISPLAY_CUTOUT, mFrame=[100000,0][1080,2400], mVisible=true, mInsetsRoundedCornerFrame=false}, InsetsSource: {mType=ITYPE_BOTTOM_DISPLAY_CUTOUT, mFrame=[0,100000][1080,2400], mVisible=true, mInsetsRoundedCornerFrame=false}, InsetsSource: {mType=ITYPE_TOP_TAPPABLE_ELEMENT, mFrame=[0,0][1080,80], mVisible=true, mInsetsRoundedCornerFrame=false}, InsetsSource: {mType=ITYPE_BOTTOM_TAPPABLE_ELEMENT, mFrame=[0,0][0,0], mVisible=true, mInsetsRoundedCornerFrame=false} } host=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity from=android.view.ViewRootImpl.setView:1732
+09-23 23:05:47.913 20383 20383 I ViewRootImpl@43d84d7[InstrumentationActivityInvoker$EmptyActivity]: setView = com.android.internal.policy.DecorView@15c5671 TM=true
+09-23 23:05:47.914 20383 20383 I MSHandlerLifeCycle: removeMultiSplitHandler: no exist. decor=DecorView@15c5671[InstrumentationActivityInvoker$EmptyActivity]
+09-23 23:05:47.914  1186  1277 D AnalyticsContainerHandler: handleMessage : { when=0 what=1 target=com.android.server.knox.KnoxAnalyticsContainer$AnalyticsHandler }
+09-23 23:05:47.917 20383 20383 I ViewRootImpl@43d84d7[InstrumentationActivityInvoker$EmptyActivity]: performTraversals params={(0,0)(fillxfill) sim={adjust=pan forwardNavigation} ty=BASE_APPLICATION wanim=0x1030001
+09-23 23:05:47.917 20383 20383 I ViewRootImpl@43d84d7[InstrumentationActivityInvoker$EmptyActivity]:   fl=1810100
+09-23 23:05:47.917 20383 20383 I ViewRootImpl@43d84d7[InstrumentationActivityInvoker$EmptyActivity]:   pfl=12020040
+09-23 23:05:47.917 20383 20383 I ViewRootImpl@43d84d7[InstrumentationActivityInvoker$EmptyActivity]:   bhv=DEFAULT
+09-23 23:05:47.917 20383 20383 I ViewRootImpl@43d84d7[InstrumentationActivityInvoker$EmptyActivity]:   fitSides= naviIconColor=0}
+09-23 23:05:47.918 20383 20383 I ViewRootImpl@43d84d7[InstrumentationActivityInvoker$EmptyActivity]: performTraversals mFirst=true windowShouldResize=true viewVisibilityChanged=false mForceNextWindowRelayout=false params={(0,0)(fillxfill) sim={adjust=pan forwardNavigation} ty=BASE_APPLICATION wanim=0x1030001
+09-23 23:05:47.918 20383 20383 I ViewRootImpl@43d84d7[InstrumentationActivityInvoker$EmptyActivity]:   fl=1810100
+09-23 23:05:47.918 20383 20383 I ViewRootImpl@43d84d7[InstrumentationActivityInvoker$EmptyActivity]:   pfl=12020040
+09-23 23:05:47.918 20383 20383 I ViewRootImpl@43d84d7[InstrumentationActivityInvoker$EmptyActivity]:   bhv=DEFAULT
+09-23 23:05:47.918 20383 20383 I ViewRootImpl@43d84d7[InstrumentationActivityInvoker$EmptyActivity]:   fitSides= naviIconColor=0}
+09-23 23:05:47.919  1186  4414 V WindowManager: Relayout Window{6a1432e u0 com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity}: viewVisibility=0 req=1080x2400 d0
+09-23 23:05:47.919   871  1063 I SurfaceFlinger: id=38824 createSurf flag=40004, com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity$_20383#38824
+09-23 23:05:47.922   871  1064 I SurfaceFlinger: id=38825 createSurf flag=24000, Surface(name=1bd1a64 StatusBar)/@0x43c3355 - animation-leash of insets_animation#38825
+09-23 23:05:47.923   871  1063 I SurfaceFlinger: id=38826 createSurf flag=24000, Surface(name=dd7eda7 NavigationBar0)/@0x5d9afd1 - animation-leash of insets_animation#38826
+09-23 23:05:47.924  1186  4414 V WindowManager: Relayout hash=6a1432e, pid=20383, syncId=-1: mAttrs={(0,0)(fillxfill) sim={adjust=pan forwardNavigation} ty=BASE_APPLICATION wanim=0x1030001
+09-23 23:05:47.924  1186  4414 V WindowManager:   fl=1810100
+09-23 23:05:47.924  1186  4414 V WindowManager:   pfl=12020040
+09-23 23:05:47.924  1186  4414 V WindowManager:   bhv=DEFAULT
+09-23 23:05:47.924  1186  4414 V WindowManager:   fitSides= naviIconColor=0}
+09-23 23:05:47.926 20383 20383 D InsetsController: onStateChanged: InsetsState: {mDisplayFrame=Rect(0, 0 - 1080, 2400), mDisplayCutout=DisplayCutout{insets=Rect(0, 80 - 0, 0) waterfall=Insets{left=0, top=0, right=0, bottom=0} boundingRect={Bounds=[Rect(0, 0 - 0, 0), Rect(468, 0 - 612, 80), Rect(0, 0 - 0, 0), Rect(0, 0 - 0, 0)]} cutoutPathParserInfo={CutoutPathParserInfo{displayWidth=1080 displayHeight=2400 physicalDisplayWidth=1080 physicalDisplayHeight=2400 density={2.8125} cutoutSpec={M 0,0 H -25.6 V 28.44444444444444 H 25.6 V 0 H 0 Z @dp} rotation={0} scale={1.0} physicalPixelDisplaySizeRatio={1.0}}}}, mRoundedCorners=RoundedCorners{[RoundedCorner{position=TopLeft, radius=90, center=Point(90, 90)}, RoundedCorner{position=TopRight, radius=90, center=Point(990, 90)}, RoundedCorner{position=BottomRight, radius=90, center=Point(990, 2310)}, RoundedCorner{position=BottomLeft, radius=90, center=Point(90, 2310)}]}  mRoundedCornerFrame=Rect(0, 0 - 1080, 2400), mPrivacyIndicatorBounds=PrivacyIndicatorBounds {static bounds=Rect(956, 0 - 1080, 80) rotation=0}, mSources= { InsetsSource: {mType=ITYPE_STATUS_BAR, mFrame=[0,0][1080,80], mVisible=true, mInsetsRoundedCornerFrame=false}, InsetsSource: {mType=ITYPE_NAVIGATION_BAR, mFrame=[0,2400][1080,2400], mVisible=true, mInsetsRoundedCornerFrame=false}, InsetsSource: {mType=ITYPE_LEFT_GESTURES, mFrame=[0,0][67,2400], mVisible=true, mInsetsRoundedCornerFrame=false}, InsetsSource: {mType=ITYPE_RIGHT_GESTURES, mFrame=[1013,0][1080,2400], mVisible=true, mInsetsRoundedCornerFrame=false}, InsetsSource: {mType=ITYPE_TOP_MANDATORY_GESTURES, mFrame=[0,0][1080,114], mVisible=true, mInsetsRoundedCornerFrame=false}, InsetsSource: {mType=ITYPE_BOTTOM_MANDATORY_GESTURES, mFrame=[0,2344][1080,2400], mVisible=true, mInsetsRoundedCornerFrame=false}, InsetsSource: {mType=ITYPE_LEFT_DISPLAY_CUTOUT, mFrame=[0,0][-100000,2400], mVisible=true, mInsetsRoundedCornerFrame=false}, InsetsSource: {mType=ITYPE_TOP_DISPLAY_CUTOUT, mFrame=[0,0][1080,80], mVisible=true, mInsetsRoundedCornerFrame=false}, InsetsSource: {mType=ITYPE_RIGHT_DISPLAY_CUTOUT, mFrame=[100000,0][1080,2400], mVisible=true, mInsetsRoundedCornerFrame=false}, InsetsSource: {mType=ITYPE_BOTTOM_DISPLAY_CUTOUT, mFrame=[0,100000][1080,2400], mVisible=true, mInsetsRoundedCornerFrame=false}, InsetsSource: {mType=ITYPE_TOP_TAPPABLE_ELEMENT, mFrame=[0,0][1080,80], mVisible=true, mInsetsRoundedCornerFrame=false}, InsetsSource: {mType=ITYPE_BOTTOM_TAPPABLE_ELEMENT, mFrame=[0,0][0,0], mVisible=true, mInsetsRoundedCornerFrame=false}, InsetsSource: {mType=ITYPE_IME, mFrame=[0,0][0,0], mVisibleFrame=[0,1392][1080,2400], mVisible=false, mInsetsRoundedCornerFrame=false} } host=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity from=android.view.ViewRootImpl.relayoutWindow:9802
+09-23 23:05:47.927 20383 20383 I ViewRootImpl@43d84d7[InstrumentationActivityInvoker$EmptyActivity]: updateBlastSurfaceIfNeeded mBlastBufferQueue=null isSameSurfaceControl=false
+09-23 23:05:47.927 20383 20383 I BLASTBufferQueue: new BLASTBufferQueue, mName= ViewRootImpl@43d84d7[InstrumentationActivityInvoker$EmptyActivity] mNativeObject= 0xb400007dbe24a8b0 sc.mNativeObject= 0xb400007d4e268530 caller= android.view.ViewRootImpl.updateBlastSurfaceIfNeeded:2909 android.view.ViewRootImpl.relayoutWindow:9847 android.view.ViewRootImpl.performTraversals:3884 android.view.ViewRootImpl.doTraversal:3116 android.view.ViewRootImpl$TraversalRunnable.run:10885 android.view.Choreographer$CallbackRecord.run:1301 android.view.Choreographer$CallbackRecord.run:1309 android.view.Choreographer.doCallbacks:923 android.view.Choreographer.doFrame:852 android.view.Choreographer$FrameDisplayEventReceiver.run:1283
+09-23 23:05:47.927 20383 20383 I BLASTBufferQueue: update, w= 1080 h= 2400 mName = ViewRootImpl@43d84d7[InstrumentationActivityInvoker$EmptyActivity] mNativeObject= 0xb400007dbe24a8b0 sc.mNativeObject= 0xb400007d4e268530 format= -1 caller= android.graphics.BLASTBufferQueue.<init>:84 android.view.ViewRootImpl.updateBlastSurfaceIfNeeded:2909 android.view.ViewRootImpl.relayoutWindow:9847 android.view.ViewRootImpl.performTraversals:3884 android.view.ViewRootImpl.doTraversal:3116 android.view.ViewRootImpl$TraversalRunnable.run:10885
+09-23 23:05:47.928 20383 20383 I ViewRootImpl@43d84d7[InstrumentationActivityInvoker$EmptyActivity]: Relayout returned: old=(0,0,1080,2400) new=(0,0,1080,2400) req=(1080,2400)0 dur=9 res=0x3 s={true 0xb400007e4e290f70} ch=true seqId=0
+09-23 23:05:47.929 20383 20417 D OpenGLRenderer: eglCreateWindowSurface
+09-23 23:05:47.929 20383 20383 I ViewRootImpl@43d84d7[InstrumentationActivityInvoker$EmptyActivity]: mThreadedRenderer.initialize() mSurface={isValid=true 0xb400007e4e290f70} hwInitialized=true
+09-23 23:05:47.930 20383 20383 I ViewRootImpl@43d84d7[InstrumentationActivityInvoker$EmptyActivity]: reportNextDraw android.view.ViewRootImpl.performTraversals:4438 android.view.ViewRootImpl.doTraversal:3116 android.view.ViewRootImpl$TraversalRunnable.run:10885 android.view.Choreographer$CallbackRecord.run:1301 android.view.Choreographer$CallbackRecord.run:1309
+09-23 23:05:47.930 20383 20383 I ViewRootImpl@43d84d7[InstrumentationActivityInvoker$EmptyActivity]: Setup new sync id=0
+09-23 23:05:47.930 20383 20383 I ViewRootImpl@43d84d7[InstrumentationActivityInvoker$EmptyActivity]: Setting syncFrameCallback
+09-23 23:05:47.931 20383 20383 I ViewRootImpl@43d84d7[InstrumentationActivityInvoker$EmptyActivity]: registerCallbacksForSync syncBuffer=false
+09-23 23:05:47.932 20383 20439 I ViewRootImpl@43d84d7[InstrumentationActivityInvoker$EmptyActivity]: Received frameDrawingCallback syncResult=0 frameNum=1.
+09-23 23:05:47.932 20383 20439 I ViewRootImpl@43d84d7[InstrumentationActivityInvoker$EmptyActivity]: Setting up sync and frameCommitCallback
+09-23 23:05:47.934   871   871 I Layer   : id=38818 removeFromCurrentState Surface(name=1bd1a64 StatusBar)/@0x43c3355 - animation-leash of insets_animation#38818 (147)
+09-23 23:05:47.934   871   871 I Layer   : id=75 removeFromCurrentState 1bd1a64 StatusBar#75 (147)
+09-23 23:05:47.934   871   871 I Layer   : id=90 removeFromCurrentState StatusBar$_1602#90 (147)
+09-23 23:05:47.934 20383 20417 I BLASTBufferQueue: [ViewRootImpl@43d84d7[InstrumentationActivityInvoker$EmptyActivity]#18](f:0,a:0) onFrameAvailable the first frame is available
+09-23 23:05:47.934   871   871 I Layer   : id=75 addToCurrentState 1bd1a64 StatusBar#75 (147)
+09-23 23:05:47.934   871   871 I Layer   : id=90 addToCurrentState StatusBar$_1602#90 (147)
+09-23 23:05:47.934   871   871 I Layer   : id=38819 removeFromCurrentState Surface(name=dd7eda7 NavigationBar0)/@0x5d9afd1 - animation-leash of insets_animation#38819 (147)
+09-23 23:05:47.934 20383 20417 I ViewRootImpl@43d84d7[InstrumentationActivityInvoker$EmptyActivity]: Received frameCommittedCallback lastAttemptedDrawFrameNum=1 didProduceBuffer=true
+09-23 23:05:47.934   871   871 I SurfaceFlinger: [6a1432e com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity#38823] FrameRatePriority: 1
+09-23 23:05:47.934   871   871 D SurfaceFlinger: [input] inputWindowCommands.focusRequests size is 1
+09-23 23:05:47.935 20383 20417 D OpenGLRenderer: CFMS:: SetUp Pid : 20383    Tid : 20417
+09-23 23:05:47.935 20383 20417 W Parcel  : Expecting binder but got null!
+09-23 23:05:47.935 20383 20383 I ViewRootImpl@43d84d7[InstrumentationActivityInvoker$EmptyActivity]: onSyncComplete
+09-23 23:05:47.936 20383 20383 I ViewRootImpl@43d84d7[InstrumentationActivityInvoker$EmptyActivity]: setupSync seqId=0 mSyncId=0 fn=1 caller=android.view.ViewRootImpl$$ExternalSyntheticLambda11.accept:6 android.window.SurfaceSyncer.lambda$setupSync$1$android-window-SurfaceSyncer:128 android.window.SurfaceSyncer$$ExternalSyntheticLambda1.accept:8 android.window.SurfaceSyncer$SyncSet.checkIfSyncIsComplete:382 android.window.SurfaceSyncer$SyncSet.markSyncReady:359 android.window.SurfaceSyncer.markSyncReady:151 android.view.ViewRootImpl.performTraversals:4503
+09-23 23:05:47.936 20383 20383 I ViewRootImpl@43d84d7[InstrumentationActivityInvoker$EmptyActivity]: reportDrawFinished seqId=0 mSyncId=-1 fn=1 mSurfaceChangedTransaction=0xb400007d7e240290
+09-23 23:05:47.936 20383 20383 I ViewRootImpl@fdcb94[InstrumentationActivityInvoker$EmptyActivity]: MSG_WINDOW_FOCUS_CHANGED 0 0
+09-23 23:05:47.937   871   965 D SurfaceFlinger: [input] setFocusedWindow: 6a1432e com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity
+09-23 23:05:47.938   871   916 I SurfaceFlinger: id=38819 Removed Surface(name=dd7eda7 NavigationBar0)/@0x5d9afd1 - animation-leash of insets_animation#38819 (147)
+09-23 23:05:47.938   871   916 I SurfaceFlinger: id=38818 Removed Surface(name=1bd1a64 StatusBar)/@0x43c3355 - animation-leash of insets_animation#38818 (147)
+09-23 23:05:47.939  1186  2938 D InputDispatcher: Focus request (0): 6a1432e com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity but waiting because NOT_VISIBLE
+09-23 23:05:47.943  1186  1229 I ActivityTaskManager: Displayed com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity: +72ms
+09-23 23:05:47.943  2633  2633 E pageboostd: Received HALT command code 2
+09-23 23:05:47.944  1186  4414 I SemDvfsHyPerManager: acquire hyper - AMS_RESUME_TAIL/1186@18, type = -999
+09-23 23:05:47.944  1186  4414 I SemDvfsHyPerManager: acquire hyper - AMS_ACT_LAZY/1186@19, type = -999
+09-23 23:05:47.944   795   875 I HYPER-HAL: [RequestManager.cpp]acquire(): Acquired ID : 725428  [1186 / 18]    HINT : AMS_RESUME_TAIL    list :
+09-23 23:05:47.945   795   875 I HYPER-HAL: [RequestManager.cpp]releaseLocked(): Released ID : 723019
+09-23 23:05:47.945   871   871 I Layer   : id=38819 Destroyed Surface(name=dd7eda7 NavigationBar0)/@0x5d9afd1 - animation-leash of insets_animation#38819
+09-23 23:05:47.945   871   871 I Layer   : id=38818 Destroyed Surface(name=1bd1a64 StatusBar)/@0x43c3355 - animation-leash of insets_animation#38818
+09-23 23:05:47.947  1186  2288 D InputDispatcher: Focus entered window (0): 6a1432e com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity
+09-23 23:05:47.949  1186  2288 D InputDispatcher: Focused application(0): ActivityRecord{4853918 u0 com.sec.android.app.launcher/.activities.LauncherActivity} t7609}
+09-23 23:05:47.953   871   871 D SurfaceFlinger: Display 4633128672291735932 HWC layers:
+09-23 23:05:47.953   871   871 D SurfaceFlinger:      DEVICE | 0xb400007cb2d28990 | 0100 | RGBx_8888    |  530.0    0.0 1610.0 2400.0 |    0    0 1080 2400 | Wallpaper BBQ wrapper#11204
+09-23 23:05:47.953   871   871 D SurfaceFlinger:      DEVICE | 0xb400007cb2d2b8d0 | 0100 | RGBA_8888    |    0.0    0.0 1080.0 2400.0 |    0    0 1080 2400 | com.sec.android.app.launcher/com.sec[...]ivities.LauncherActivity$_2080#38790
+09-23 23:05:47.953   871   871 D SurfaceFlinger:      DEVICE | 0xb400007cb2d287d0 | 0102 | RGBA_8888    |    0.0    0.0 1080.0 2400.0 |    2    4 1078 2396 | com.example.dogglers/androidx.test.c[...]tyInvoker$EmptyActivity$_20383#38824
+09-23 23:05:47.953   871   871 D SurfaceFlinger:      DEVICE | 0xb400007cb2d3cd50 | 0100 | RGBA_8888    |    0.0    0.0 1080.0   80.0 |    0    0 1080   80 | StatusBar$_1602#90
+09-23 23:05:47.953   871   871 D SurfaceFlinger:      DEVICE | 0xb400007cb2d30b10 | 0100 | RGBA_8888    |    0.0    0.0 1080.0  135.0 |    0 2265 1080 2400 | NavigationBar0$_1602#85
+09-23 23:05:47.953   871   871 D SurfaceFlinger:
+09-23 23:05:47.955  1186  1232 D PersonaActivityHelper: Activity not in resumed state, do not run immediate lock
+09-23 23:05:47.956   871   871 I SurfaceFlinger: [6a1432e com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity#38823] FrameRatePriority: -1
+09-23 23:05:47.957  2080  2080 I TopTaskTracker: onTaskMovedToFront : taskId = 7609
+09-23 23:05:47.957 20383 20383 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@99cc18a in: PAUSED
+09-23 23:05:47.958 20383 20383 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.MainActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity }, activity=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@99cc18a
+09-23 23:05:47.959  1186  2288 I SemDvfsHyPerManager: acquire hyper - AMS_APP_HOME/1186@29, type = -999
+09-23 23:05:47.959   795   875 I HYPER-HAL: [RequestManager.cpp]acquire(): Acquired ID : 738749  [1186 / 29]    HINT : AMS_APP_HOME    list :
+09-23 23:05:47.960  4177  4177 I SemDvfsHyPerManager: acquire hyper - APP_START_HOME/4177@17, type = -999
+09-23 23:05:47.961   795   875 I HYPER-HAL: [RequestManager.cpp]acquire(): Acquired ID : 8796932  [4177 / 17]    HINT : APP_START    list : [KERNEL_APP_START_NOTIFY / 0] [TIMEOUT / 1500]
+09-23 23:05:47.963  2080  2080 I ViewRootImpl@782dd03[LauncherActivity]: stopped(false) old = false
+09-23 23:05:47.963  2080  2080 I Launcher: !@Boot_DEBUG: Launcher.onResume()
+09-23 23:05:47.963  2080  2080 I Launcher: !@Boot_EBS_D: Launcher.onResume()
+09-23 23:05:47.963  2080  2080 I BaseActivity: addActivityFlags, flags : 18
+09-23 23:05:47.963  2080  2080 I BaseActivity: removeActivityFlags, flags : 32
+09-23 23:05:47.963  2080  2330 I IMM_LC  : hsifw() - flag : 0
+09-23 23:05:47.963  2080  2080 I AppsSearchBar: restoreCurrentCellLayoutAlpha: null
+09-23 23:05:47.963  2080  2330 I IMM_LC  : hsifw() - mService.hideSoftInput
+09-23 23:05:47.963  2080  2080 W SearchLauncherServiceMover: isMoving : false
+09-23 23:05:47.964  2080  2334 I SPayUpdater: updateSpayHandler, show = true, defaultPage = true
+09-23 23:05:47.965  2080  2080 I DecorView: notifyKeepScreenOnChanged: keepScreenOn=false
+09-23 23:05:47.965   871  1064 I SurfaceFlinger: id=38827 createSurf flag=24000, Surface(name=Task=7706)/@0x413bedc - animation-leash of app_transition#38827
+09-23 23:05:47.965  2080 13317 I Launcher: DisplayMetrics from Resources : DisplayMetrics{density=2.8125, width=1080, height=2320, scaledDensity=3.09375, xdpi=409.432, ydpi=411.891}
+09-23 23:05:47.965  2080  2080 I Launcher: setWallpaperOffsets
+09-23 23:05:47.965  2080 13317 I Launcher: realMetrics from Wm : DisplayMetrics{density=2.8125, width=1080, height=2400, scaledDensity=2.8125, xdpi=409.432, ydpi=411.891}
+09-23 23:05:47.965  2080 13317 I Launcher: Launcher DeviceProfile onResume availSize: 1080x2320 windowSize: 1080x2400 isLandscape: false
+09-23 23:05:47.966   871  1064 I SurfaceFlinger: id=38828 createSurf flag=24004, Surface(name=Task=1)/@0x8b8da95 - animation-leash of app_transition#38828
+09-23 23:05:47.966  2633  2633 E pageboostd: Received HALT command code 2
+09-23 23:05:47.967   871   871 D SurfaceFlinger: [input] inputWindowCommands.focusRequests size is 1
+09-23 23:05:47.968   871  1064 I SurfaceFlinger: id=38829 createSurf flag=24000, Surface(name=WallpaperWindowToken{2688aa8 token=android.os.Binder@a6692cb})/@0xbda02b4 - animation-leash of window_animation#38829
+09-23 23:05:47.969   871   965 D SurfaceFlinger: [input] setFocusedWindow: <null>
+09-23 23:05:47.969  1186  3889 D InputDispatcher: Focus left window (0): 6a1432e com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity
+09-23 23:05:47.972   871   871 I Layer   : id=38830 Destroyed Screenshot Parent#38830
+09-23 23:05:47.977   871  1064 I SurfaceFlinger: id=38831 createSurf flag=24000, Surface(name=1bd1a64 StatusBar)/@0x43c3355 - animation-leash of insets_animation#38831
+09-23 23:05:47.978   871  1064 I SurfaceFlinger: id=38832 createSurf flag=24000, Surface(name=dd7eda7 NavigationBar0)/@0x5d9afd1 - animation-leash of insets_animation#38832
+09-23 23:05:47.979  2080 32290 I TouchInteractionService: onSystemUiStateChanged, stateFlags : 0 |
+09-23 23:05:47.981  1186  1186 D PocketProximityManager: setStateOut()
+09-23 23:05:47.981  2080 32290 I LauncherAnimationRunner: onAnimationStart, appTargets : [Lcom.android.systemui.shared.system.RemoteAnimationTargetCompat;@e1f845f mStartAtFrontOfQueue : false
+09-23 23:05:47.982  1602  1651 D Bubbles : onLocusVisibilityChanged: LocusId[17_chars] visible=true
+09-23 23:05:47.982 20383 20383 I ViewRootImpl@43d84d7[InstrumentationActivityInvoker$EmptyActivity]: MSG_WINDOW_FOCUS_CHANGED 0 0
+09-23 23:05:47.983  2080  2080 I MSHandlerLifeCycle: removeMultiSplitHandler: no exist. decor=DecorView@71ff488[LauncherActivity]
+09-23 23:05:47.983  2080  2080 I BaseActivity: addActivityFlags, flags : 4
+09-23 23:05:47.983  2080  2080 I Launcher: onDeferredResumed
+09-23 23:05:47.983  2080  2080 I InstallShortcutReceiver: flushInstallQueue 0
+09-23 23:05:47.983  2080  2080 I Launcher.NotificationListener: onNotificationFullRefresh
+09-23 23:05:47.983  2080  2080 I BadgeCountUpdaterImpl: onNotificationsChangedConnected
+09-23 23:05:47.983  2080  2080 W LauncherAppWidgetHost: setShouldListenFlag, mFlags:7 flag:resume on:true isFront:false
+09-23 23:05:47.983 20383 20383 I ViewRootImpl@43d84d7[InstrumentationActivityInvoker$EmptyActivity]: MSG_WINDOW_FOCUS_CHANGED 0 0
+09-23 23:05:47.983  2080  2331 I InstallShortcutReceiver: flushQueueInBackground 0
+09-23 23:05:47.983  1186  1232 I SemPersonaManager: SecureFolder personaId = 150
+09-23 23:05:47.983  2080  2080 I ViewRootImpl@782dd03[LauncherActivity]: performTraversals params={(0,0)(fillxfill) sim={adjust=nothing} layoutInDisplayCutoutMode=shortEdges ty=BASE_APPLICATION fmt=TRANSPARENT wanim=0x10302f4
+09-23 23:05:47.983  2080  2080 I ViewRootImpl@782dd03[LauncherActivity]:   fl=81910100
+09-23 23:05:47.983  2080  2080 I ViewRootImpl@782dd03[LauncherActivity]:   pfl=1e020040
+09-23 23:05:47.983  2080  2080 I ViewRootImpl@782dd03[LauncherActivity]:   vsysui=1700
+09-23 23:05:47.983  2080  2080 I ViewRootImpl@782dd03[LauncherActivity]:   bhv=SHOW_TRANSIENT_BARS_BY_SWIPE
+09-23 23:05:47.983  2080  2080 I ViewRootImpl@782dd03[LauncherActivity]:   fitSides= screenDimDuration=200000 naviIconColor=0}
+09-23 23:05:47.984  2080  2080 I ViewRootImpl@782dd03[LauncherActivity]: performTraversals mFirst=false windowShouldResize=false viewVisibilityChanged=false mForceNextWindowRelayout=false params={(0,0)(fillxfill) sim={adjust=nothing} layoutInDisplayCutoutMode=shortEdges ty=BASE_APPLICATION fmt=TRANSPARENT wanim=0x10302f4
+09-23 23:05:47.984  2080  2080 I ViewRootImpl@782dd03[LauncherActivity]:   fl=81910100
+09-23 23:05:47.984  2080  2080 I ViewRootImpl@782dd03[LauncherActivity]:   pfl=1e020040
+09-23 23:05:47.984  2080  2080 I ViewRootImpl@782dd03[LauncherActivity]:   vsysui=1700
+09-23 23:05:47.984  2080  2080 I ViewRootImpl@782dd03[LauncherActivity]:   bhv=SHOW_TRANSIENT_BARS_BY_SWIPE
+09-23 23:05:47.984  2080  2080 I ViewRootImpl@782dd03[LauncherActivity]:   fitSides= screenDimDuration=200000 naviIconColor=0}
+09-23 23:05:47.984  1186  4414 V WindowManager: Relayout Window{2961ae6 u0 com.sec.android.app.launcher/com.sec.android.app.launcher.activities.LauncherActivity}: viewVisibility=0 req=1080x2400 d0
+09-23 23:05:47.986  1186  4414 V WindowManager: Relayout hash=2961ae6, pid=2080, syncId=-1: mAttrs={(0,0)(fillxfill) sim={adjust=nothing} layoutInDisplayCutoutMode=shortEdges ty=BASE_APPLICATION fmt=TRANSPARENT wanim=0x10302f4
+09-23 23:05:47.986  1186  4414 V WindowManager:   fl=81910100
+09-23 23:05:47.986  1186  4414 V WindowManager:   pfl=1e020040
+09-23 23:05:47.986  1186  4414 V WindowManager:   vsysui=1700
+09-23 23:05:47.986  1186  4414 V WindowManager:   bhv=SHOW_TRANSIENT_BARS_BY_SWIPE
+09-23 23:05:47.986  1186  4414 V WindowManager:   fitSides= screenDimDuration=200000 naviIconColor=0}
+09-23 23:05:47.986  1186  1277 D AnalyticsContainerHandler: handleMessage : { when=0 what=1 target=com.android.server.knox.KnoxAnalyticsContainer$AnalyticsHandler }
+09-23 23:05:47.987  2080  2080 I ViewRootImpl@782dd03[LauncherActivity]: updateBlastSurfaceIfNeeded mBlastBufferQueue=0xb400007dbe24cb10 isSameSurfaceControl=true
+09-23 23:05:47.987  2080  2080 I BLASTBufferQueue: update, w= 1080 h= 2400 mName = ViewRootImpl@782dd03[LauncherActivity] mNativeObject= 0xb400007dbe24cb10 sc.mNativeObject= 0xb400007d4e2913b0 format= -2 caller= android.view.ViewRootImpl.updateBlastSurfaceIfNeeded:2898 android.view.ViewRootImpl.relayoutWindow:9847 android.view.ViewRootImpl.performTraversals:3884 android.view.ViewRootImpl.doTraversal:3116 android.view.ViewRootImpl$TraversalRunnable.run:10885 android.view.Choreographer$CallbackRecord.run:1301
+09-23 23:05:47.987  2080  2080 I ViewRootImpl@782dd03[LauncherActivity]: Relayout returned: old=(0,0,1080,2400) new=(0,0,1080,2400) req=(1080,2400)0 dur=3 res=0x0 s={true 0xb400007e4e4d8490} ch=false seqId=0
+09-23 23:05:47.987  2080  2080 I RecentsAnimationDeviceState: setSystemUiFlags, stateFlags : 0
+09-23 23:05:47.987  2080  2080 I TouchInteractionService: onSystemUiFlagsChanged, lastSysUIFlags : 131072
+09-23 23:05:47.988  2080  2080 I Launcher: getFirstMatch : no matching view
+09-23 23:05:47.988  2080  2080 W AppTransitionAnimatorImpl: closing animation without floating view
+09-23 23:05:47.988  2080  2080 I AppTransitionAnimatorImpl: window bounds: Rect(0, 0 - 1080, 2400), target bounds: RectF(0.0, 0.0, 1080.0, 2400.0)
+09-23 23:05:47.988  2080  2080 I AnimationResult: setAnimation : null
+09-23 23:05:47.988  2080  2080 W AppTransitionAnimatorImpl: onAnimationStart - APP OUT
+09-23 23:05:47.989  2080  2331 I Launcher.NotificationListener: notificationIsValidForUI : com.google.android.gm missingTitleAndText : false isGroupHeader : true
+09-23 23:05:47.989  2080  2331 I Launcher.NotificationListener: notificationIsValidForUI : com.google.android.gm missingTitleAndText : false isGroupHeader : false
+09-23 23:05:47.989  2080  2331 I Launcher.NotificationListener: notificationIsValidForUI : com.google.android.gm missingTitleAndText : false isGroupHeader : false
+09-23 23:05:47.989  2080  2331 I Launcher.NotificationListener: notificationIsValidForUI : com.google.android.gms missingTitleAndText : false isGroupHeader : false
+09-23 23:05:47.989  2080  2331 I Launcher.NotificationListener: Full refresh isConnected : true active size : 3
+09-23 23:05:47.989   871   871 I Layer   : id=38805 removeFromCurrentState Surface(name=Task=7706)/@0x413bedc - animation-leash of app_transition#38805 (150)
+09-23 23:05:47.990   871   871 I Layer   : id=38804 removeFromCurrentState Surface(name=Task=1)/@0x8b8da95 - animation-leash of app_transition#38804 (150)
+09-23 23:05:47.990   871   871 I Layer   : id=38825 removeFromCurrentState Surface(name=1bd1a64 StatusBar)/@0x43c3355 - animation-leash of insets_animation#38825 (150)
+09-23 23:05:47.990   871   871 I Layer   : id=38826 removeFromCurrentState Surface(name=dd7eda7 NavigationBar0)/@0x5d9afd1 - animation-leash of insets_animation#38826 (150)
+09-23 23:05:47.990   871   871 I Layer   : id=69 removeFromCurrentState dd7eda7 NavigationBar0#69 (150)
+09-23 23:05:47.990   871   871 I Layer   : id=85 removeFromCurrentState NavigationBar0$_1602#85 (150)
+09-23 23:05:47.990   871   871 I Layer   : id=69 addToCurrentState dd7eda7 NavigationBar0#69 (150)
+09-23 23:05:47.990   871   871 I Layer   : id=85 addToCurrentState NavigationBar0$_1602#85 (150)
+09-23 23:05:47.990   871   871 I SurfaceFlinger: id=38805 Removed Surface(name=Task=7706)/@0x413bedc - animation-leash of app_transition#38805 (150)
+09-23 23:05:47.990   871   871 I SurfaceFlinger: id=38804 Removed Surface(name=Task=1)/@0x8b8da95 - animation-leash of app_transition#38804 (150)
+09-23 23:05:47.990   871   871 I SurfaceFlinger: id=38825 Removed Surface(name=1bd1a64 StatusBar)/@0x43c3355 - animation-leash of insets_animation#38825 (150)
+09-23 23:05:47.990   871   871 I SurfaceFlinger: id=38826 Removed Surface(name=dd7eda7 NavigationBar0)/@0x5d9afd1 - animation-leash of insets_animation#38826 (150)
+09-23 23:05:47.990  2080  2080 I PopupDataProvider: onNotificationFullRefresh prev dotInfoSize : 2
+09-23 23:05:47.990  2080  2080 I PopupDataProvider: refresh badge  package : com.google.android.gm count : 2
+09-23 23:05:47.990  2080  2080 I PopupDataProvider: refresh badge  package : com.google.android.gms count : 1
+09-23 23:05:47.991  2080  2080 I IconView: applyDotState itemInfo : Gmail display : 1 count : 2
+09-23 23:05:47.991   871   871 I Layer   : id=38804 Destroyed Surface(name=Task=1)/@0x8b8da95 - animation-leash of app_transition#38804
+09-23 23:05:47.991   871   871 I Layer   : id=38805 Destroyed Surface(name=Task=7706)/@0x413bedc - animation-leash of app_transition#38805
+09-23 23:05:47.991   871   871 I Layer   : id=38825 Destroyed Surface(name=1bd1a64 StatusBar)/@0x43c3355 - animation-leash of insets_animation#38825
+09-23 23:05:47.991  2080  4600 I ViewRootImpl@782dd03[LauncherActivity]: mWNT: t=0xb400007d7e2fd710 mBlastBufferQueue=0xb400007dbe24cb10 fn= 20 caller= com.android.systemui.shared.launcher.ViewRootImplCompat.mergeWithNextTransaction:2 com.android.quickstep.util.SurfaceTransactionApplier.lambda$scheduleApply$0:2 com.android.quickstep.util.SurfaceTransactionApplier.b:0
+09-23 23:05:47.991   871   871 I Layer   : id=38826 Destroyed Surface(name=dd7eda7 NavigationBar0)/@0x5d9afd1 - animation-leash of insets_animation#38826
+09-23 23:05:47.991  2080  4600 I ViewRootImpl@782dd03[LauncherActivity]: mWNT: t=0xb400007d7e27e090 mBlastBufferQueue=0xb400007dbe24cb10 fn= 20 caller= com.android.systemui.shared.launcher.ViewRootImplCompat.mergeWithNextTransaction:2 com.android.quickstep.util.SurfaceTransactionApplier.lambda$scheduleApply$0:2 com.android.quickstep.util.SurfaceTransactionApplier.b:0
+09-23 23:05:47.991  2080  4600 I ViewRootImpl@782dd03[LauncherActivity]: mWNT: t=0xb400007d7e334490 mBlastBufferQueue=0xb400007dbe24cb10 fn= 20 caller= com.android.systemui.shared.launcher.ViewRootImplCompat.mergeWithNextTransaction:2 com.android.quickstep.util.SurfaceTransactionApplier.lambda$scheduleApply$0:2 com.android.quickstep.util.SurfaceTransactionApplier.b:0
+09-23 23:05:47.996 15539 15619 D KnoxHelper: getActivityList callingUserId: 0, target user: 0
+09-23 23:05:47.996   871   871 D SurfaceFlinger: Display 4633128672291735932 HWC layers:
+09-23 23:05:47.996   871   871 D SurfaceFlinger:      DEVICE | 0xb400007cb2d287d0 | 0102 | RGBA_8888    |    0.0    0.0 1080.0 2400.0 |    0    0 1080 2400 | com.example.dogglers/androidx.test.c[...]tyInvoker$EmptyActivity$_20383#38824
+09-23 23:05:47.996   871   871 D SurfaceFlinger:      DEVICE | 0xb400007cb2d3cd50 | 0100 | RGBA_8888    |    0.0    0.0 1080.0   80.0 |    0    0 1080   80 | StatusBar$_1602#90
+09-23 23:05:47.996   871   871 D SurfaceFlinger:      DEVICE | 0xb400007cb2d30b10 | 0100 | RGBA_8888    |    0.0    0.0 1080.0  135.0 |    0 2265 1080 2400 | NavigationBar0$_1602#85
+09-23 23:05:47.996   871   871 D SurfaceFlinger:
+09-23 23:05:47.998  1186  1232 D EnterpriseDeviceManagerService: isMdmAdminPresentInternal() : MDM Admin Found - com.samsung.knox.securefolder
+09-23 23:05:48.001  1186  2620 I MediaSessionMonitor: Media session stopped : controllerList empty
+09-23 23:05:48.002  2080  4601 I ViewRootImpl@782dd03[LauncherActivity]: mWNT: t=0xb400007d7e2f0a50 mBlastBufferQueue=0xb400007dbe24cb10 fn= 21 caller= com.android.systemui.shared.launcher.ViewRootImplCompat.mergeWithNextTransaction:2 com.android.quickstep.util.SurfaceTransactionApplier.lambda$scheduleApply$0:2 com.android.quickstep.util.SurfaceTransactionApplier.b:0
+09-23 23:05:48.007   871   871 D SurfaceFlinger: Display 4633128672291735932 HWC layers:
+09-23 23:05:48.007   871   871 D SurfaceFlinger:      DEVICE | 0xb400007cb2d28990 | 0100 | RGBx_8888    |  530.0    0.0 1610.0 2400.0 |    0    0 1080 2400 | Wallpaper BBQ wrapper#11204
+09-23 23:05:48.007   871   871 D SurfaceFlinger:      DEVICE | 0xb400007cb2d21b50 | 0100 | RGBA_8888    |    0.0    0.0 1080.0 2400.0 |    0    0 1080 2400 | com.sec.android.app.launcher/com.sec[...]ivities.LauncherActivity$_2080#38790
+09-23 23:05:48.007   871   871 D SurfaceFlinger:      DEVICE | 0xb400007cb2d3cd50 | 0100 | RGBA_8888    |    0.0    0.0 1080.0   80.0 |    0    0 1080   80 | StatusBar$_1602#90
+09-23 23:05:48.007   871   871 D SurfaceFlinger:      DEVICE | 0xb400007cb2d30b10 | 0100 | RGBA_8888    |    0.0    0.0 1080.0  135.0 |    0 2265 1080 2400 | NavigationBar0$_1602#85
+09-23 23:05:48.007   871   871 D SurfaceFlinger:
+09-23 23:05:48.012  2080  4600 I ViewRootImpl@782dd03[LauncherActivity]: mWNT: t=0xb400007d7e32f930 mBlastBufferQueue=0xb400007dbe24cb10 fn= 22 caller= com.android.systemui.shared.launcher.ViewRootImplCompat.mergeWithNextTransaction:2 com.android.quickstep.util.SurfaceTransactionApplier.lambda$scheduleApply$0:2 com.android.quickstep.util.SurfaceTransactionApplier.b:0
+09-23 23:05:48.013 15539 15619 D KnoxHelper: getActivityList callingUserId: 0, target user: 150
+09-23 23:05:48.014 15539 15619 V KnoxHelper: source and target users are different, and caller is knox container or target user is for secure folder, so request cannot be granted!
+09-23 23:05:48.023  2080  4601 I ViewRootImpl@782dd03[LauncherActivity]: mWNT: t=0xb400007d7e2e3d90 mBlastBufferQueue=0xb400007dbe24cb10 fn= 23 caller= com.android.systemui.shared.launcher.ViewRootImplCompat.mergeWithNextTransaction:2 com.android.quickstep.util.SurfaceTransactionApplier.lambda$scheduleApply$0:2 com.android.quickstep.util.SurfaceTransactionApplier.b:0
+09-23 23:05:48.035  2080  4600 I ViewRootImpl@782dd03[LauncherActivity]: mWNT: t=0xb400007d7e33ec30 mBlastBufferQueue=0xb400007dbe24cb10 fn= 24 caller= com.android.systemui.shared.launcher.ViewRootImplCompat.mergeWithNextTransaction:2 com.android.quickstep.util.SurfaceTransactionApplier.lambda$scheduleApply$0:2 com.android.quickstep.util.SurfaceTransactionApplier.b:0
+09-23 23:05:48.046  2080  4601 I ViewRootImpl@782dd03[LauncherActivity]: mWNT: t=0xb400007d7e33e8d0 mBlastBufferQueue=0xb400007dbe24cb10 fn= 25 caller= com.android.systemui.shared.launcher.ViewRootImplCompat.mergeWithNextTransaction:2 com.android.quickstep.util.SurfaceTransactionApplier.lambda$scheduleApply$0:2 com.android.quickstep.util.SurfaceTransactionApplier.b:0
+09-23 23:05:48.057  2080  4600 I ViewRootImpl@782dd03[LauncherActivity]: mWNT: t=0xb400007d7e343790 mBlastBufferQueue=0xb400007dbe24cb10 fn= 26 caller= com.android.systemui.shared.launcher.ViewRootImplCompat.mergeWithNextTransaction:2 com.android.quickstep.util.SurfaceTransactionApplier.lambda$scheduleApply$0:2 com.android.quickstep.util.SurfaceTransactionApplier.b:0
+09-23 23:05:48.063  2080 32290 I RecentModel: onTaskStackChangedBackground
+09-23 23:05:48.064  4177  4954 I SemDvfsHyPerManager: acquire hyper - BaseTABoost/4177@21, type = 1090523139
+09-23 23:05:48.065   795   875 I HYPER-HAL: [RequestManager.cpp]acquire(): Acquired ID : 8813722  [4177 / 21]    HINT :      list : [TABoost / 1]
+09-23 23:05:48.066  2080  2330 I RecentTasksList: loadTasksInBackground : groupTask = GroupTask{task1=[id=7706 windowingMode=1 user=0 lastActiveTime=201179044] null, task2=null, task3=null, mStagedSplitBounds=null}
+09-23 23:05:48.066 28768 28768 I ResourceOverlayService_0: waitAndQuit called
+09-23 23:05:48.067 28768 28768 I ResourceOverlayService_0: activity user id 0 process id 0
+09-23 23:05:48.067  2080  2080 I TaskThumbnailCache: handleResult: taskId = 7706, taskThumbnail = android.graphics.Bitmap@57bf744
+09-23 23:05:48.069  2080  4601 I ViewRootImpl@782dd03[LauncherActivity]: mWNT: t=0xb400007d7e300650 mBlastBufferQueue=0xb400007dbe24cb10 fn= 27 caller= com.android.systemui.shared.launcher.ViewRootImplCompat.mergeWithNextTransaction:2 com.android.quickstep.util.SurfaceTransactionApplier.lambda$scheduleApply$0:2 com.android.quickstep.util.SurfaceTransactionApplier.b:0
+09-23 23:05:48.079  2080  4600 I ViewRootImpl@782dd03[LauncherActivity]: mWNT: t=0xb400007d7e24a130 mBlastBufferQueue=0xb400007dbe24cb10 fn= 28 caller= com.android.systemui.shared.launcher.ViewRootImplCompat.mergeWithNextTransaction:2 com.android.quickstep.util.SurfaceTransactionApplier.lambda$scheduleApply$0:2 com.android.quickstep.util.SurfaceTransactionApplier.b:0
+09-23 23:05:48.091  2080  4601 I ViewRootImpl@782dd03[LauncherActivity]: mWNT: t=0xb400007d7e2e3fd0 mBlastBufferQueue=0xb400007dbe24cb10 fn= 29 caller= com.android.systemui.shared.launcher.ViewRootImplCompat.mergeWithNextTransaction:2 com.android.quickstep.util.SurfaceTransactionApplier.lambda$scheduleApply$0:2 com.android.quickstep.util.SurfaceTransactionApplier.b:0
+09-23 23:05:48.102  2080  4600 I ViewRootImpl@782dd03[LauncherActivity]: mWNT: t=0xb400007d7e311f90 mBlastBufferQueue=0xb400007dbe24cb10 fn= 30 caller= com.android.systemui.shared.launcher.ViewRootImplCompat.mergeWithNextTransaction:2 com.android.quickstep.util.SurfaceTransactionApplier.lambda$scheduleApply$0:2 com.android.quickstep.util.SurfaceTransactionApplier.b:0
+09-23 23:05:48.114  2080  4601 I ViewRootImpl@782dd03[LauncherActivity]: mWNT: t=0xb400007d7e326b70 mBlastBufferQueue=0xb400007dbe24cb10 fn= 31 caller= com.android.systemui.shared.launcher.ViewRootImplCompat.mergeWithNextTransaction:2 com.android.quickstep.util.SurfaceTransactionApplier.lambda$scheduleApply$0:2 com.android.quickstep.util.SurfaceTransactionApplier.b:0
+09-23 23:05:48.124  2080  4600 I ViewRootImpl@782dd03[LauncherActivity]: mWNT: t=0xb400007d7e326ff0 mBlastBufferQueue=0xb400007dbe24cb10 fn= 32 caller= com.android.systemui.shared.launcher.ViewRootImplCompat.mergeWithNextTransaction:2 com.android.quickstep.util.SurfaceTransactionApplier.lambda$scheduleApply$0:2 com.android.quickstep.util.SurfaceTransactionApplier.b:0
+09-23 23:05:48.131  2080  2101 W System  : A resource failed to call release.
+09-23 23:05:48.131  2080  2101 W System  : A resource failed to call release.
+09-23 23:05:48.132  2080  2101 W System  : A resource failed to call release.
+09-23 23:05:48.132   871  1063 I SurfaceFlinger: id=38795 Removed Surface(name=WallpaperWindowToken{2688aa8 token=android.os.Binder@a6692cb})/@0xbda02b4 - animation-leash of window_animation#38795 (146)
+09-23 23:05:48.132   871  1063 I SurfaceFlinger: id=38794 Removed Surface(name=Task=1)/@0x8b8da95 - animation-leash of app_transition#38794 (146)
+09-23 23:05:48.132   871  2164 I SurfaceFlinger: id=38793 Removed Surface(name=Task=7705)/@0x50fdafd - animation-leash of app_transition#38793 (146)
+09-23 23:05:48.134   871   871 I Layer   : id=38793 Destroyed Surface(name=Task=7705)/@0x50fdafd - animation-leash of app_transition#38793
+09-23 23:05:48.135   871   871 I Layer   : id=38794 Destroyed Surface(name=Task=1)/@0x8b8da95 - animation-leash of app_transition#38794
+09-23 23:05:48.135   871   871 I Layer   : id=38795 Destroyed Surface(name=WallpaperWindowToken{2688aa8 token=android.os.Binder@a6692cb})/@0xbda02b4 - animation-leash of window_animation#38795
+09-23 23:05:48.135  2080  4601 I ViewRootImpl@782dd03[LauncherActivity]: mWNT: t=0xb400007d7e2e8a10 mBlastBufferQueue=0xb400007dbe24cb10 fn= 33 caller= com.android.systemui.shared.launcher.ViewRootImplCompat.mergeWithNextTransaction:2 com.android.quickstep.util.SurfaceTransactionApplier.lambda$scheduleApply$0:2 com.android.quickstep.util.SurfaceTransactionApplier.b:0
+09-23 23:05:48.140  1186  1186 D PocketProximityManager: setStateOut()
+09-23 23:05:48.146  2080  4600 I ViewRootImpl@782dd03[LauncherActivity]: mWNT: t=0xb400007d7e2e11b0 mBlastBufferQueue=0xb400007dbe24cb10 fn= 34 caller= com.android.systemui.shared.launcher.ViewRootImplCompat.mergeWithNextTransaction:2 com.android.quickstep.util.SurfaceTransactionApplier.lambda$scheduleApply$0:2 com.android.quickstep.util.SurfaceTransactionApplier.b:0
+09-23 23:05:48.157  2080  4601 I ViewRootImpl@782dd03[LauncherActivity]: mWNT: t=0xb400007d7e314a50 mBlastBufferQueue=0xb400007dbe24cb10 fn= 35 caller= com.android.systemui.shared.launcher.ViewRootImplCompat.mergeWithNextTransaction:2 com.android.quickstep.util.SurfaceTransactionApplier.lambda$scheduleApply$0:2 com.android.quickstep.util.SurfaceTransactionApplier.b:0
+09-23 23:05:48.168  2080  2080 W AppTransitionAnimatorImpl: onAnimationEnd - APP OUT, Execution time for each frame : Start-(0)-1-(0)-0-(0)-0-(11)-1-(10)-1-(11)-0-(11)-0-(11)-0-(11)-0-(11)-1-(10)-1-(11)-0-(11)-0-(11)-0-(11)-0-(11)-0-(11)-0-(11)-1-(10)-1-End
+09-23 23:05:48.168  2080  2080 I AppTransitionAnimatorImpl: resetContentView
+09-23 23:05:48.168  2080  2080 I AnimationResult: AnimationResult finish : onAnimationEnd
+09-23 23:05:48.168  2080  2080 I AnimationResult: finish : false, null
+09-23 23:05:48.168  2080  2330 I AnimationResult: finish callback : null
+09-23 23:05:48.169  2080  4600 I ViewRootImpl@782dd03[LauncherActivity]: mWNT: t=0xb400007d7e2e7b70 mBlastBufferQueue=0xb400007dbe24cb10 fn= 36 caller= com.android.systemui.shared.launcher.ViewRootImplCompat.mergeWithNextTransaction:2 com.android.quickstep.util.SurfaceTransactionApplier.lambda$scheduleApply$0:2 com.android.quickstep.util.SurfaceTransactionApplier.b:0
+09-23 23:05:48.170  2080  2080 W Launcher: onEnterAnimationComplete
+09-23 23:05:48.171 20383 20383 I ViewRootImpl@d86bea0[MainActivity]: handleAppVisibility mAppVisible = true visible = false
+09-23 23:05:48.179   871   871 I Layer   : id=38802 removeFromCurrentState Splash Screen com.example.dogglers$_1602#38802 (143)
+09-23 23:05:48.179   871   871 I SurfaceFlinger: [2961ae6 com.sec.android.app.launcher/com.sec.android.app.launcher.activities.LauncherActivity#20052] FrameRatePriority: 1
+09-23 23:05:48.179   871   871 I Layer   : id=38828 removeFromCurrentState Surface(name=Task=1)/@0x8b8da95 - animation-leash of app_transition#38828 (143)
+09-23 23:05:48.180   871   871 I Layer   : id=38801 removeFromCurrentState c4a7ffa Splash Screen com.example.dogglers#38801 (143)
+09-23 23:05:48.180   871   871 I Layer   : id=38827 removeFromCurrentState Surface(name=Task=7706)/@0x413bedc - animation-leash of app_transition#38827 (143)
+09-23 23:05:48.180   871   871 I Layer   : Layer [Splash Screen com.example.dogglers$_1602#38802] hidden!! flag(1)
+09-23 23:05:48.180   871   871 I Layer   : Layer [com.example.dogglers/com.example.dogglers.MainActivity$_20383#38809] hidden!! flag(1)
+09-23 23:05:48.180   871   871 I Layer   : Layer [com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity$_20383#38817] hidden!! flag(1)
+09-23 23:05:48.180   871   871 I Layer   : Layer [com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity$_20383#38824] hidden!! flag(1)
+09-23 23:05:48.180   871   871 I Layer   : id=38829 removeFromCurrentState Surface(name=WallpaperWindowToken{2688aa8 token=android.os.Binder@a6692cb})/@0xbda02b4 - animation-leash of window_animation#38829 (143)
+09-23 23:05:48.180   871   871 I SurfaceFlinger: id=38801 Removed c4a7ffa Splash Screen com.example.dogglers#38801 (143)
+09-23 23:05:48.180   871   871 I SurfaceFlinger: id=38802 Removed Splash Screen com.example.dogglers$_1602#38802 (143)
+09-23 23:05:48.180   871   871 I Layer   : id=38801 Destroyed c4a7ffa Splash Screen com.example.dogglers#38801
+09-23 23:05:48.180   871   871 I Layer   : id=38802 Destroyed Splash Screen com.example.dogglers$_1602#38802
+09-23 23:05:48.181 20383 20417 D OpenGLRenderer: setSurface called with nullptr
+09-23 23:05:48.181 20383 20417 D OpenGLRenderer: setSurface() destroyed EGLSurface
+09-23 23:05:48.181 20383 20417 D OpenGLRenderer: destroyEglSurface
+09-23 23:05:48.184 20383 20383 I ViewRootImpl@d86bea0[MainActivity]: performTraversals mFirst=false windowShouldResize=false viewVisibilityChanged=true mForceNextWindowRelayout=false params=null
+09-23 23:05:48.184  1186  4414 V WindowManager: Relayout Window{4b2970c u0 com.example.dogglers/com.example.dogglers.MainActivity}: viewVisibility=8 req=1080x2400 d0
+09-23 23:05:48.186  1186  4414 V WindowManager: Relayout hash=4b2970c, pid=20383, syncId=-1: mAttrs={(0,0)(fillxfill) sim={adjust=pan forwardNavigation} ty=BASE_APPLICATION wanim=0x1030309
+09-23 23:05:48.186  1186  4414 V WindowManager:   fl=81810100
+09-23 23:05:48.186  1186  4414 V WindowManager:   pfl=12020040
+09-23 23:05:48.186  1186  4414 V WindowManager:   bhv=DEFAULT
+09-23 23:05:48.186  1186  4414 V WindowManager:   fitSides= naviIconColor=0}
+09-23 23:05:48.190   871   871 D SurfaceFlinger: [input] inputWindowCommands.focusRequests size is 1
+09-23 23:05:48.192   871   965 D SurfaceFlinger: [input] setFocusedWindow: 2961ae6 com.sec.android.app.launcher/com.sec.android.app.launcher.activities.LauncherActivity
+09-23 23:05:48.192  1186  2938 D InputDispatcher: Focus entered window (0): 2961ae6 com.sec.android.app.launcher/com.sec.android.app.launcher.activities.LauncherActivity
+09-23 23:05:48.192 20383 20383 I ViewRootImpl@d86bea0[MainActivity]: Relayout returned: old=(0,0,1080,2400) new=(0,0,1080,2400) req=(1080,2400)8 dur=6 res=0x2 s={false 0x0} ch=true seqId=0
+09-23 23:05:48.193 20383 20383 I ViewRootImpl@43d84d7[InstrumentationActivityInvoker$EmptyActivity]: handleAppVisibility mAppVisible = true visible = false
+09-23 23:05:48.193  2080  2080 I ViewRootImpl@782dd03[LauncherActivity]: MSG_WINDOW_FOCUS_CHANGED 1 0
+09-23 23:05:48.193  2080  2080 I ViewRootImpl@782dd03[LauncherActivity]: mThreadedRenderer.initializeIfNeeded()#2 mSurface={isValid=true 0xb400007e4e4d8490}
+09-23 23:05:48.193  2080  2080 I BaseActivity: addActivityFlags, flags : 8
+09-23 23:05:48.194 20383 20383 I ViewRootImpl@43d84d7[InstrumentationActivityInvoker$EmptyActivity]: stopped(true) old = false
+09-23 23:05:48.194 20383 20383 I ViewRootImpl@43d84d7[InstrumentationActivityInvoker$EmptyActivity]: WindowStopped on com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity set to true
+09-23 23:05:48.194  2080  2080 I InputMethodManager: startInputInner - mService.startInputOrWindowGainedFocus
+09-23 23:05:48.195  1186  4414 D InputMethodManagerService: mDesktopModeManager null!
+09-23 23:05:48.195  1186  4414 V InputMethodManagerService: getDisplayIdOfInputMethodWindowToBeAdded: displayId=0
+09-23 23:05:48.195 20383 20383 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@99cc18a in: STOPPED
+09-23 23:05:48.196  1186  4414 D InputMethodManagerService: isImeSwitcherDisabledPackage : false
+09-23 23:05:48.196 20383 20383 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.MainActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity }, activity=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@99cc18a
+09-23 23:05:48.196  1186  4414 D InputMethodManagerService: checkDisplayOfStartInputAndUpdateKeyboard: displayId=0, mFocusedDisplayId=0
+09-23 23:05:48.196  1186  4414 D InputTransport: Input channel constructed: 'ClientS', fd=1045
+09-23 23:05:48.196  1186  4414 D InputTransport: Input channel destroyed: 'ClientS', fd=1045
+09-23 23:05:48.197  4639  4639 I HBD     : HoneyBoardService onFinishInput
+09-23 23:05:48.197  4639  4639 I HBD     : a IC have been unbinding,  RemoteInputConnection{idHash=#4d60fc}
+09-23 23:05:48.197  4639  4639 I HBD     : HoneyBoardService [PF_CL][onFinishInput]  0 ms
+09-23 23:05:48.197   871  1064 I SurfaceFlinger: id=38833 createSurf flag=24004, Surface(name=e96d1f9 InputMethod)/@0x341a74a - animation-leash of insets_animation#38833
+09-23 23:05:48.197  4639  4639 I HBD     : HoneyBoardService [IMI] onStartInput - caller pid : 2080 , caller uid : 10131
+09-23 23:05:48.198  4639  4639 I HBD     : j updateConfigs
+09-23 23:05:48.198  4639  4639 I HBD     : j isEnabledNightMode : true
+09-23 23:05:48.198  4639  4639 I HBD     : a IC have been binding, RemoteInputConnection{idHash=#3674385}
+09-23 23:05:48.198  4639  4639 I HBD     : h [EditorInputType]setPrivateImeOptionsToTable privateImeOptions ( null )
+09-23 23:05:48.198  4639  4639 I HBD     : b incognitoMode : false
+09-23 23:05:48.198  4639  4639 I HBD     : a needOff = true , isForceOff = false, isNullInputClass : true
+09-23 23:05:48.198  4639  4639 I HBD     : h getDefaultInputRange : UNKNOWN
+09-23 23:05:48.198  4639  4639 I HBD     : h getDefaultInputRange : UNKNOWN
+09-23 23:05:48.198  4639  4639 I HBD     : h getDefaultInputRange : UNKNOWN
+09-23 23:05:48.199  4639  4639 I HBD     : a needOff = true , isForceOff = false, isNullInputClass : true
+09-23 23:05:48.199  4639  4639 I HBD     : a update cached prediction status : false
+09-23 23:05:48.199  4639  4639 I HBD     : h getDefaultInputRange : UNKNOWN
+09-23 23:05:48.200  4639  4639 I HBD     : a currentState : 0
+09-23 23:05:48.200 20383 20383 I MSHandlerLifeCycle: removeMultiSplitHandler: no exist. decor=DecorView@15c5671[InstrumentationActivityInvoker$EmptyActivity]
+09-23 23:05:48.200  4639  4639 I HBD     : a [UpdatePolicy] [post] a: 0 cl: 65538 kit: [0/0] vt: 0 ir: 1
+09-23 23:05:48.200  4639  4639 I HBD     : a [NRIC] resetNoResponseState
+09-23 23:05:48.201  4639  4639 I HBD     : a needOff = true , isForceOff = false, isNullInputClass : true
+09-23 23:05:48.201  4639  4639 I HBD     : a update cached prediction status : false
+09-23 23:05:48.201   871   871 I Layer   : id=38822 removeFromCurrentState Surface(name=e96d1f9 InputMethod)/@0x341a74a - animation-leash of insets_animation#38822 (142)
+09-23 23:05:48.202  4639  4639 I HBD     : HoneyBoardService [PF_OP][onStartInput]  5 ms
+09-23 23:05:48.202 20383 20383 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@99cc18a in: DESTROYED
+09-23 23:05:48.203 20383 20383 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.MainActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity }, activity=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@99cc18a
+09-23 23:05:48.204  1186  4414 D InputMethodManagerService: isImeSwitcherDisabledPackage : false
+09-23 23:05:48.205 20383 20383 I MSHandlerLifeCycle: removeMultiSplitHandler: no exist. decor=DecorView@15c5671[InstrumentationActivityInvoker$EmptyActivity]
+09-23 23:05:48.205  4639  4639 I InputMethodService: removeImeSurface
+09-23 23:05:48.205  4639  4639 I MSHandlerLifeCycle: check: return. pkg=com.samsung.android.honeyboard isActivity=false callers=com.android.internal.policy.DecorView.setVisibility:4416 android.app.Dialog.hide:767 android.inputmethodservice.InputMethodService.removeImeSurface:1290 android.inputmethodservice.InputMethodService.scheduleImeSurfaceRemoval:1279 android.inputmethodservice.InputMethodService.-$$Nest$mscheduleImeSurfaceRemoval:0
+09-23 23:05:48.205  4639  4639 I MSHandlerLifeCycle: removeMultiSplitHandler: no exist. decor=DecorView@88a07b[InputMethod]
+09-23 23:05:48.206 20383 20417 D OpenGLRenderer: setSurface called with nullptr
+09-23 23:05:48.206 20383 20417 D OpenGLRenderer: setSurface() destroyed EGLSurface
+09-23 23:05:48.206 20383 20417 D OpenGLRenderer: destroyEglSurface
+09-23 23:05:48.210 20383 20383 I ViewRootImpl@43d84d7[InstrumentationActivityInvoker$EmptyActivity]: dispatchDetachedFromWindow
+09-23 23:05:48.211  1186  2938 D InputTransport: Input channel destroyed: '6a1432e', fd=1024
+09-23 23:05:48.211  1186  2938 W InputManager-JNI: Input channel object '6a1432e com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity (client)' was disposed without first being removed with the input manager!
+09-23 23:05:48.211  1186  2938 D InputTransport: Input channel destroyed: '6a1432e', fd=1025
+09-23 23:05:48.215 20383 20383 D InputTransport: Input channel destroyed: '6a1432e', fd=142
+09-23 23:05:48.216   871  2164 I SurfaceFlinger: id=38821 Removed df9cae7 ActivityRecordInputSink com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity#38821 (142)
+09-23 23:05:48.216 20383 20383 I ViewRootImpl@fdcb94[InstrumentationActivityInvoker$EmptyActivity]: stopped(true) old = false
+09-23 23:05:48.217 20383 20383 I ViewRootImpl@fdcb94[InstrumentationActivityInvoker$EmptyActivity]: WindowStopped on com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity set to true
+09-23 23:05:48.218 20383 20383 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@6d1220b in: STOPPED
+09-23 23:05:48.219 20383 20383 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.MainActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity }, activity=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@6d1220b
+09-23 23:05:48.220 20383 20383 I MSHandlerLifeCycle: removeMultiSplitHandler: no exist. decor=DecorView@d404da6[InstrumentationActivityInvoker$EmptyActivity]
+09-23 23:05:48.221 20383 20383 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@6d1220b in: DESTROYED
+09-23 23:05:48.222 20383 20383 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.MainActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity }, activity=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@6d1220b
+09-23 23:05:48.223 20383 20383 I MSHandlerLifeCycle: removeMultiSplitHandler: no exist. decor=DecorView@d404da6[InstrumentationActivityInvoker$EmptyActivity]
+09-23 23:05:48.223   871   871 I Layer   : id=38824 removeFromCurrentState com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity$_20383#38824 (142)
+09-23 23:05:48.224   871   871 I Layer   : id=38823 removeFromCurrentState 6a1432e com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity#38823 (142)
+09-23 23:05:48.224 20383 20417 D OpenGLRenderer: setSurface called with nullptr
+09-23 23:05:48.224 20383 20417 D OpenGLRenderer: setSurface() destroyed EGLSurface
+09-23 23:05:48.224 20383 20417 D OpenGLRenderer: destroyEglSurface
+09-23 23:05:48.224   871   871 I SurfaceFlinger: id=38824 Removed com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity$_20383#38824 (142)
+09-23 23:05:48.224   871   871 I SurfaceFlinger: id=38823 Removed 6a1432e com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity#38823 (142)
+09-23 23:05:48.224   871   871 I Layer   : id=38823 Destroyed 6a1432e com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity#38823
+09-23 23:05:48.224   871   871 I Layer   : id=38824 Destroyed com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity$_20383#38824
+09-23 23:05:48.228 20383 20383 I ViewRootImpl@fdcb94[InstrumentationActivityInvoker$EmptyActivity]: dispatchDetachedFromWindow
+09-23 23:05:48.229  1186  2938 D InputTransport: Input channel destroyed: '5c17a93', fd=978
+09-23 23:05:48.229  1186  2938 W InputManager-JNI: Input channel object '5c17a93 com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity (client)' was disposed without first being removed with the input manager!
+09-23 23:05:48.229  1186  2938 D InputTransport: Input channel destroyed: '5c17a93', fd=1014
+09-23 23:05:48.233 20383 20383 D InputTransport: Input channel destroyed: '5c17a93', fd=100
+09-23 23:05:48.234   871  2164 I SurfaceFlinger: id=38822 Removed Surface(name=e96d1f9 InputMethod)/@0x341a74a - animation-leash of insets_animation#38822 (140)
+09-23 23:05:48.234   871   871 I Layer   : id=38820 removeFromCurrentState ActivityRecord{4d7f694 u0 com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity} t7706}#38820 (140)
+09-23 23:05:48.234   871   871 I Layer   : id=38821 removeFromCurrentState df9cae7 ActivityRecordInputSink com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity#38821 (140)
+09-23 23:05:48.235   871   871 I Layer   : id=38817 removeFromCurrentState com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity$_20383#38817 (140)
+09-23 23:05:48.235   871   871 I Layer   : id=38816 removeFromCurrentState 5c17a93 com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity#38816 (140)
+09-23 23:05:48.235 20383 20383 I ViewRootImpl@d86bea0[MainActivity]: stopped(true) old = false
+09-23 23:05:48.235   871   871 I SurfaceFlinger: id=38816 Removed 5c17a93 com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity#38816 (140)
+09-23 23:05:48.235 20383 20383 I ViewRootImpl@d86bea0[MainActivity]: WindowStopped on com.example.dogglers/com.example.dogglers.MainActivity set to true
+09-23 23:05:48.235   871   871 I SurfaceFlinger: id=38817 Removed com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity$_20383#38817 (140)
+09-23 23:05:48.235   871   871 I SurfaceFlinger: id=38820 Removed ActivityRecord{4d7f694 u0 com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity} t7706}#38820 (140)
+09-23 23:05:48.236   871   871 I Layer   : id=38822 Destroyed Surface(name=e96d1f9 InputMethod)/@0x341a74a - animation-leash of insets_animation#38822
+09-23 23:05:48.236   871   871 I Layer   : id=38816 Destroyed 5c17a93 com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity#38816
+09-23 23:05:48.236   871   871 I Layer   : id=38817 Destroyed com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity$_20383#38817
+09-23 23:05:48.236   871   871 I Layer   : id=38820 Destroyed ActivityRecord{4d7f694 u0 com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity} t7706}#38820
+09-23 23:05:48.236   871   871 I Layer   : id=38821 Destroyed df9cae7 ActivityRecordInputSink com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity#38821
+09-23 23:05:48.237   871  2164 I SurfaceFlinger: id=38815 Removed bd12746 ActivityRecordInputSink com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity#38815 (135)
+09-23 23:05:48.237 20383 20383 D LifecycleMonitor: Lifecycle status change: com.example.dogglers.MainActivity@1028ce5 in: STOPPED
+09-23 23:05:48.238 20383 20383 V ActivityScenario: Update currentActivityStage to STOPPED, currentActivity=com.example.dogglers.MainActivity@1028ce5
+09-23 23:05:48.239 20383 20383 I MSHandlerLifeCycle: removeMultiSplitHandler: no exist. decor=DecorView@5d57fb3[MainActivity]
+09-23 23:05:48.241 20383 20383 D LifecycleMonitor: Lifecycle status change: com.example.dogglers.MainActivity@1028ce5 in: DESTROYED
+09-23 23:05:48.241 20383 20383 V ActivityScenario: Update currentActivityStage to DESTROYED, currentActivity=null
+09-23 23:05:48.242 20383 20415 I TestRunner: finished: vertical_list_button_is_displayed(com.example.dogglers.ButtonTests)
